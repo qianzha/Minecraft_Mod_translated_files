@@ -1,0 +1,266 @@
+itemGroup.assassincraftTab=[AssassinCraft]武器
+itemGroup.assassincraftArmorTab=[AssassinCraft]装备
+itemGroup.assassincraftMiscTab=[AssassinCraft]杂项
+itemGroup.assassincraftBlocksTab=[AssassinCraft]方块
+
+tile.blockTest.name=Block Test
+item.itemTest.name=Item Test
+
+item.hiddenblade.name=袖剑
+item.hiddenin.name=Hiddenin
+item.hiddenhook.name=钩刃
+item.bullet.name=子弹
+item.bolt.name=弩箭
+item.hiddengun.name=袖枪
+item.AltairSword.name=阿泰尔之剑
+item.CaptainsSword.name=船长剑
+item.Dagger.name=匕首
+item.ThrowingKnife.name=飞刀
+item.gun.name=袖枪部件
+item.Tomahawk.name=印第安战斧
+item.Crossbow.name=弩
+item.RegularBomb.name=常规炸弹
+item.spear.name=长矛
+item.halberd.name=长戟
+item.beardedaxe.name=钩斧
+item.bartolomeosaxe.name=巴托洛梅奥之斧
+
+item.florinbag.name=弗罗林钱袋
+item.commonsword.name=普通的剑
+item.florentinefalchion.name=佛罗伦萨弯刀
+item.lavolpesbite.name=拉·博尔佩之剑
+item.milanesesword.name=米兰剑
+item.oldsyriansword.name=叙利亚古剑
+item.romanlongsword.name=罗马长剑
+item.schiavona.name=护手双刃剑
+item.scimitar.name=短弯刀
+item.sicilianrapier.name=西西里轻剑
+item.venetianfalchion.name=威尼斯弯刀
+
+item.stiletto.name=小剑
+item.knife.name=小刀
+item.bonedaggerofromulus.name=罗穆卢斯的骨质匕首
+item.butcherknife.name= 屠刀
+item.notchedcinquedea.name=开槽五指剑
+item.sultansknife.name=苏丹短刀
+item.daggerofbrutus.name=布鲁图斯的匕首
+item.channeledcinquedea.name=多槽五指剑
+
+item.Codex.name=手札
+item.Codexchapter.name=单章手札
+item.Codexpage.name=单页手札
+
+item.acdimkey.name=Animus维度钥匙
+tile.acportal.name=Animus维度大门
+tile.dungeonUnbreakableBlock.name=地牢砖块
+tile.dungeonUnbreakableBlockBar.name=地牢栏杆
+tile.dungeonUnbreakableFloorBlock.name=地牢地砖
+tile.dungeonLockedDoorRomulus.name=地牢锁上的罗穆卢斯门
+item.dungeonLockedDoorRomulusItem.name=地牢锁上的罗穆卢斯门
+
+item.AltairHelmet.name=阿泰尔的兜帽
+item.AltairBody.name=阿泰尔的衣服
+item.AltairLegs.name=阿泰尔的裤子
+item.AltairBoots.name=阿泰尔的靴子
+item.EzioHelmet.name=艾吉奥的兜帽
+item.EzioBody.name=艾吉奥的衣服
+item.EzioLegs.name=艾吉奥的裤子
+item.EzioBoots.name=艾吉奥的靴子
+item.EzioReHelmet.name=[启示录]艾吉奥的兜帽
+item.EzioReBody.name=[启示录]艾吉奥的衣服
+item.EzioReLegs.name=[启示录]艾吉奥的裤子
+item.EzioReBoots.name=[启示录]艾吉奥的靴子
+item.EzioBrutusHelmet.name=[布鲁图斯]艾吉奥的兜帽
+item.EzioBrutusBody.name=[布鲁图斯]艾吉奥的衣服
+item.EzioBrutusLegs.name=[布鲁图斯]艾吉奥的裤子
+item.EzioBrutusBoots.name=[布鲁图斯]艾吉奥的靴子
+item.EdwardKenwayHelmet.name=爱德华的兜帽
+item.EdwardKenwayBody.name=爱德华的衣服
+item.EdwardKenwayLegs.name=爱德华的裤子
+item.EdwardKenwayBoots.name=爱德华的靴子
+item.ConnorKenwayHelmet.name=康纳的兜帽
+item.ConnorKenwayBody.name=康纳的衣服
+item.ConnorKenwayLegs.name=康纳的裤子
+item.ConnorKenwayBoots.name=康纳的靴子
+
+item.DesmondBody.name=戴斯蒙的外套
+
+item.ACCapeTest.name=[朴素的斗篷]艾吉奥的衣服
+item.plaincape.name=朴素的斗篷
+
+item.ACCapeAuditore.name=[奥迪托雷斗篷]艾吉奥的衣服
+item.auditorecape.name=奥迪托雷斗篷
+item.ACCapeMedici.name=[美第奇斗篷]艾吉奥的衣服
+item.medicicape.name=美第奇斗篷
+item.ACCapeVenetian.name=[威尼斯斗篷]艾吉奥的衣服
+item.venetiancape.name=威尼斯斗篷
+
+item.RawDeerMeat.name=生鹿肉
+item.CookedDeerMeat.name=熟鹿肉
+item.Syringe.name=注射器
+item.medicine.name=药物
+item.poison.name=毒药
+
+entity.EntityGeneral.name=将军
+entity.EntityArcher.name=弓箭手
+entity.EntityLightguard.name=轻型守卫
+entity.EntityHeavyguard.name=重装守卫
+entity.EntityDeer.name=鹿
+entity.EntityVillagerTest.name=铁匠
+entity.EntityFollowerofRomulus.name=罗穆卢斯追随者
+entity.EntityBruteguard.name=蛮兵
+entity.EntityPapalguard.name=教皇卫兵
+
+key.assassincraft_inventory.desc=[AssassinCraft]背包
+key.assassincraft.label=AssassinCraft按键设置
+
+ac.baseitem.desc.0=材料
+ac.medicine.desc.0=右键使用药物:
+ac.medicine.desc.1=回复你所有生命值并治疗:
+ac.medicine.desc.2=中毒, 凋零, 饥饿, 缓慢 & 虚弱
+ac.poison.desc.0=右键抛射毒药:
+ac.poison.desc.1=如果毒药抛射到敌对玩家或NPC, 他们将缓缓地死去伴随着:
+ac.poison.desc.2=中毒, 凋零, 饥饿, 缓慢 & 虚弱
+ac.rawdeermeat.desc.0=右键食用:
+ac.rawdeermeat.desc.1=回复1颗心的生命值 & 饥饿效果3秒
+ac.cookeddeermeat.desc.0=右键食用:
+ac.cookeddeermeat.desc.1=回复3颗心的生命值 & 生命恢复效果2秒
+
+ac.altairarmor.desc.0=阿泰尔的装备:
+ac.altairarmor.desc.01= 防具
+ac.altairarmor.desc.1=阿泰尔的兜帽 =
+ac.altairarmor.desc.2=阿泰尔的衣服 =
+ac.altairarmor.desc.3=阿泰尔的裤子 =
+ac.altairarmor.desc.4=阿泰尔的靴子 =
+ac.altairarmor.desc.5= 1
+
+ac.ezioarmor.desc.0=艾吉奥的装备:
+ac.ezioarmor.desc.01= 防具
+ac.ezioarmor.desc.1=艾吉奥的兜帽 =
+ac.ezioarmor.desc.2=艾吉奥的衣服 =
+ac.ezioarmor.desc.3=艾吉奥的裤子 =
+ac.ezioarmor.desc.4=艾吉奥的靴子 =
+ac.ezioarmor.desc.5= 1
+ac.ezioarmor.desc.6= 1,5
+
+ac.eziorearmor.desc.0=[启示录]艾吉奥的装备:
+ac.eziorearmor.desc.01= 防具
+ac.eziorearmor.desc.1=[启示录]艾吉奥的兜帽 =
+ac.eziorearmor.desc.2=[启示录]艾吉奥的衣服 =
+ac.eziorearmor.desc.3=[启示录]艾吉奥的裤子 =
+ac.eziorearmor.desc.4=[启示录]艾吉奥的靴子 =
+ac.eziorearmor.desc.5= 1
+ac.eziorearmor.desc.6= 2
+
+ac.eziobrutusarmor.desc.0=[布鲁图斯]艾吉奥的装备:
+ac.eziobrutusarmor.desc.01= 防具
+ac.eziobrutusarmor.desc.1=[布鲁图斯]艾吉奥的兜帽 =
+ac.eziobrutusarmor.desc.2=[布鲁图斯]艾吉奥的衣服 =
+ac.eziobrutusarmor.desc.3=[布鲁图斯]艾吉奥的裤子 =
+ac.eziobrutusarmor.desc.4=[布鲁图斯]艾吉奥的靴子 =
+ac.eziobrutusarmor.desc.5= 2
+ac.eziobrutusarmor.desc.6= 5
+ac.eziobrutusarmor.desc.7= 3
+ac.eziobrutusarmor.desc.8= 2
+
+ac.edwardkenwayarmor.desc.0=爱德华·肯威的装备:
+ac.edwardkenwayarmor.desc.01= 防具
+ac.edwardkenwayarmor.desc.1=爱德华的兜帽 =
+ac.edwardkenwayarmor.desc.2=爱德华的衣服 =
+ac.edwardkenwayarmor.desc.3=爱德华的裤子 =
+ac.edwardkenwayarmor.desc.4=爱德华的靴子 =
+ac.edwardkenwayarmor.desc.5= 1,5
+ac.edwardkenwayarmor.desc.6= 2,5
+ac.edwardkenwayarmor.desc.7= 2,5
+ac.edwardkenwayarmor.desc.8= 1,5
+
+ac.connorkenwayarmor.desc.0=康纳·肯威的装备:
+ac.connorkenwayarmor.desc.01= 防具
+ac.connorkenwayarmor.desc.1=康纳的兜帽 =
+ac.connorkenwayarmor.desc.2=康纳的衣服 =
+ac.connorkenwayarmor.desc.3=康纳的裤子 =
+ac.connorkenwayarmor.desc.4=康纳的靴子 =
+ac.connorkenwayarmor.desc.5= 1,5
+ac.connorkenwayarmor.desc.6= 3
+ac.connorkenwayarmor.desc.7= 3
+ac.connorkenwayarmor.desc.8= 1,5
+
+ac.desmondarmor.desc.0=戴斯蒙的装备:
+ac.desmondarmor.desc.01= 护甲
+ac.desmondarmor.desc.1=戴斯蒙的外套 =
+ac.desmondarmor.desc.5= 1
+
+ac.accapetest.desc.0=[朴素的斗篷]艾吉奥的装备:
+ac.accapetest.desc.01= 防具
+ac.accapetest.desc.1=[朴素的斗篷]艾吉奥的衣服 =
+ac.accapetest.desc.5= 2
+
+ac.accapeauditore.desc.0=[奥迪托雷斗篷]艾吉奥的装备:
+ac.accapeauditore.desc.01= 防具
+ac.accapeauditore.desc.1=[奥迪托雷斗篷]艾吉奥的衣服 =
+ac.accapeauditore.desc.5= 2
+
+ac.accapemedici.desc.0=[美第奇斗篷]艾吉奥的装备:
+ac.accapemedici.desc.01= 防具
+ac.accapemedici.desc.1=[美第奇斗篷]艾吉奥的衣服 =
+ac.accapemedici.desc.5= 2
+
+ac.accapevenetian.desc.0=[威尼斯斗篷]艾吉奥的装备:
+ac.accapevenetian.desc.01= 防具
+ac.accapevenetian.desc.1=[威尼斯斗篷]艾吉奥的装备 =
+ac.accapevenetian.desc.5= 2
+
+ac.itemhiddengun.desc.0=弹药:
+ac.itemhiddengun.desc.01= 子弹
+ac.itemcrossbow.desc.0=弹药:
+ac.itemcrossbow.desc.01= 弩箭
+ac.itemregularbomb.desc.0=效果:
+ac.itemregularbomb.desc.01= 虚弱
+ac.itemregularbomb.desc.02= ( 10秒 )
+ac.itemregularbomb.desc.1=效果只对NPC有影响
+ac.itemregularbomb.desc.2=伤害:
+ac.itemregularbomb.desc.20= 10
+ac.florinbag.desc.0=1
+ac.florinbag.desc.1= 弗罗林钱袋
+ac.florinbag.desc.2= = 1000f 
+ac.florinbag.desc.3=(弗罗林币)
+ac.florinbag.desc.4=材料
+
+ac.weapons.sword.1=中型武器
+ac.weapons.shortblades.1=短兵器
+ac.weapons.shortblades.2=50% 额外攻击速度
+ac.weapons.longweapons.1=长武器
+ac.weapons.heavyweapons.1=重武器
+
+item.ScrollsofRomulusOne.name=罗穆卢斯卷轴 I
+item.ScrollsofRomulusTwo.name=罗穆卢斯卷轴 II
+item.ScrollsofRomulusThree.name=罗穆卢斯卷轴 III
+item.ScrollsofRomulusFour.name=罗穆卢斯卷轴 IV
+item.ScrollsofRomulusFive.name=罗穆卢斯卷轴 V
+item.ScrollsofRomulusSix.name=罗穆卢斯卷轴 VI
+item.KeyOfRomulus.name=罗穆卢斯钥匙
+
+ac.item.scrollsofromulus.desc.1=不明讯息:
+ac.item.scrollsofromulus.one.message.1=我们把它带走之后又归还,...
+ac.item.scrollsofromulus.two.message.1=...在那铁门后面. ...
+ac.item.scrollsofromulus.three.message.1=...六把钥匙将能打开它,...
+ac.item.scrollsofromulus.four.message.1=... 它们散布在我们的兄弟手中. ...
+ac.item.scrollsofromulus.five.message.1=...据说它来自于罗穆卢斯,...
+ac.item.scrollsofromulus.six.message.1=并且他们会尊敬它. 
+
+ac.item.keyofromulus.message.1=我们把它带走之后又归还,
+ac.item.keyofromulus.message.2=在那铁门后面.
+ac.item.keyofromulus.message.3=六把钥匙将能打开它,
+ac.item.keyofromulus.message.4=它们散布在我们的兄弟手中.
+ac.item.keyofromulus.message.5=据说它来自于罗穆卢斯,
+ac.item.keyofromulus.message.6=并且他们会尊敬它.
+
+ac.item.scroolsofromulus.desc.2=Key 
+ac.item.scroolsofromulus.desc.key.1=1
+ac.item.scroolsofromulus.desc.key.2=2
+ac.item.scroolsofromulus.desc.key.3=3
+ac.item.scroolsofromulus.desc.key.4=4
+ac.item.scroolsofromulus.desc.key.5=5
+ac.item.scroolsofromulus.desc.key.6=6
+ac.item.scroolsofromulus.desc.key.desc=/6
+ac.item.scrollsofromulus.desc.3=所有讯息:
