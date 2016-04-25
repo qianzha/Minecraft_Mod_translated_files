@@ -1,11 +1,23 @@
 ------------------------------------------------------
+Version 2.0.0-34
+------------------------------------------------------
+- Added config to Blood Magic that will prevent the compression handler from reading the recipes added by the Compression mod (default is true).
+- Added Japanese localization and fixed Czech (I can't spell) localization.
+
+------------------------------------------------------
+Version 2.0.0-33
+------------------------------------------------------
+- 修复一些本地化问题.
+- 修复一些次要bug.
+
+------------------------------------------------------
 Version 2.0.0-32
 ------------------------------------------------------
-- Changed Tome of Peritia's recipe
-- Added step assist living armour upgrade tracker.
-- Added new Living Armour upgrades:
-	- Added Charging Strike, which increases knockback and damage for attacks while sprinting
-	- Added True Strike, increasing the damage of critical hits
+- 更改经验手册的合成方式
+- 添加步伐补助束灵盔甲强化追踪系统.
+- 添加新的束灵装甲盔甲强化:
+	- 添加 冲撞击打, 疾跑时击退和伤害提升
+	- 添加 精准击打, 提升暴击伤害
 
 ------------------------------------------------------
 Version 2.0.0-31
