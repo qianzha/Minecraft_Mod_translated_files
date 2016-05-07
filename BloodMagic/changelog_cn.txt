@@ -1,0 +1,351 @@
+------------------------------------------------------
+Version 2.0.0-34
+------------------------------------------------------
+- Added config to Blood Magic that will prevent the compression handler from reading the recipes added by the Compression mod (default is true).
+- Added Japanese localization and fixed Czech (I can't spell) localization.
+
+------------------------------------------------------
+Version 2.0.0-33
+------------------------------------------------------
+- 修复一些本地化问题.
+- 修复一些次要bug.
+
+------------------------------------------------------
+Version 2.0.0-32
+------------------------------------------------------
+- 更改经验手册的合成方式
+- 添加步伐补助束灵盔甲强化追踪系统.
+- 添加新的束灵装甲盔甲强化:
+	- 添加 冲撞击打, 疾跑时击退和伤害提升
+	- 添加 精准击打, 提升暴击伤害
+
+------------------------------------------------------
+Version 2.0.0-31
+------------------------------------------------------
+- Fixed NPE when using an empty bucket.
+- Added Living Armour Upgrades:
+	- Strong Legs increases jump height. Pro tip: hold shift to bypass this jump boost.
+	- Soft Fall decreases all fall damage, up to 100% at level 5.
+	- Grave Digger, for fun times with alternative weapons
+- Added increase in speed for Routing nodes inside of a chunk with Demon Aura
+- Fixed OutOfBoundsException in the Sentient Sword when you didn't have enough Will.
+- Fixed custom potion effects so they could be applied server-sided
+- Added recipe for the Tome of Peritia
+
+------------------------------------------------------
+Version 2.0.0-30
+------------------------------------------------------
+- Wow, there are a lot of bug fixes lately.
+- Fixed it so that the blood orb is no longer consumed in the crafting grid.
+
+------------------------------------------------------
+Version 2.0.0-29
+------------------------------------------------------
+- Fixed formatting not working properly on servers.
+
+------------------------------------------------------
+Version 2.0.0-28
+------------------------------------------------------
+- Fixed the soul snare.
+- Removed health buff from Steadfast armour
+- Changed corrosive sword's effect from poison to wither
+- Fixed living armour's training bracelet so that it deactivates any training of upgrades not supported
+- Added "Experienced" living armour upgrade, which provides more xp from picked up orbs.
+- Updated to Forge 1826
+
+------------------------------------------------------
+Version 2.0.0-27
+------------------------------------------------------
+- Added OreDict support for the altar (was done in 26)
+- Made it so that the Tartaric gem would show visually what type of will was contained
+- Allowed the Sentient Sword to use different wills, and change its colour based on the used one. Also made it so you do not toggle it by right clicking, but it simply 
+	rechecks itself when you smack something and when you right-click.
+- Fixed item binding. Yusssss.
+- Added Sword, Armour, and Bow texture changes when you have different demonic will in your inventory.
+- Finalized sentient sword effects
+- Did work on the unique demon will effects for armour
+- FINALLY changed it so farm animals do not drop demon will.
+
+------------------------------------------------------
+Version 2.0.0-23
+------------------------------------------------------
+- Fixed "see through world" syndrome for most blocks
+- Fixed .obj models so that they will properly render while in-hand
+- Fixed routing node attaching logic
+- Changed the growth behavior of the crystals
+- Fixed Potion getting for various methods
+- Started work on crystal automation ritual
+- Finished first iteration of the iterator of AreaDescriptor (hehe)
+- Finished the crystal automation ritual, "Gathering of the Forsaken Souls." This ritual damages mobs in it's area (21^3 cube around the MRS) and once it kills a mob it
+	uses its life essence to feed the demonic will crystals inside of its area (two blocks above the ritual stone, 7x7 region and 5 high). This costs LP and 
+	demonic will from the aura of the particular type, and costs less will the more... varied the mobs killed are. Growth amount is dictated by the max health
+	of the mobs killed.
+- Updated to Forge 1811
+
+------------------------------------------------------
+Version 2.0.0-22
+------------------------------------------------------
+- Fixed client disconnect when joining servers
+- Fixed Bound Blade having same damage between activated and deactivated states
+- Fixed Sentient Armour gem so it works, now
+- Fixed Armour model textures
+- Fixed crash on newer versions of Forge
+- Updated zh_CN localization
+
+------------------------------------------------------
+Version 2.0.0-21
+------------------------------------------------------
+- Initial release to 1.9. Many glitches that have yet to be ironed out, some of them Forge issues. Probably best not to play with this one until Forge stabilizes.
+
+------------------------------------------------------
+Version 2.0.0-20
+------------------------------------------------------
+- 修复血之祭坛因奇怪的理由崩溃
+- 修复狱火熔炉的GUI
+- Fixed issue with Will Chunks not generating when requested in new chunks
+- 修复宝珠层级并无保存于玩家信息中的问题
+- 修复创造匕首. Shift+右键祭坛填满
+- Fixed step height being set to incorrect value. Your Chisels and Bits stairs should work, now!
+- 修复绑定工具无法附魔
+- 修复绑定工具的"狂野模式"
+- 修复血光印记不使用LP
+- Changed Will system so that it automatically goes into your inventory and then drops any excess Will on the ground.
+- Changed Blood Light to render more particles when the sigil is held to make them easier to find.
+- Added debug commands. These work exactly the same as in the 1.7.10 version
+- [API] Fixed AddToNetworkEvent not being cancellable even though it should be
+- [API] Helper method in NetworkHelper to obtain the highest possible capacity for a given tier.
+
+------------------------------------------------------
+Version 2.0.0-19
+------------------------------------------------------
+- 修复道路方块的合成
+- Added gui stuff to enable priority in the item routing system: nodes with a lower value priority will be accessed first. (May be rotated in the future)
+- Grayed out the currently active side's button in the item routers.
+- Added Demon Pylon
+- Changed behaviour of Demon Crucible
+- Fully implemented the behaviour of the crystal growing process.
+	- A Demon Crucible will be able to syphon the demon will from the tartaric gems inside of its inventory - right click with a gem to place it into the inventory.
+	- The syphoned will from the gem will go into the chunk, staying in the air - it will not move to neighbouring chunks unless forced to do so through other means
+	- The Demon Pylon draws will in the air from surrounding chunks and puts it into its own chunk - this acts as sort of like a pressure system, where it will even out the will distribution, but only goes one way.
+	- The Demon Crystallizer takes 100 will from the air (need a demon crucible for it to work) and forms a demon crystal on top of it. There is a 10% chance that this crystal will be of a special type.
+	- The Demon Crystals can be mined in order to collect their crystals. These crystals can be used for crafting more powerful stuff. If you have over 1024 will on your person when you right click the crystal, you can harvest a single crystal instead of the entire thing.
+	- You can put the harvested crystals inside of a demon crucible. Each crystal is worth 10 will, so this acts as a way to semi-automate will creation.
+	- When a hellfire forge is inside of a chunk with demon will, it will fill its contained tartaric gem with will.
+	- Changed a few recipes (like the greater tartaric gem) to match this new system.
+
+------------------------------------------------------
+Version 2.0.0-18
+------------------------------------------------------
+- 修复熔岩晶体在没有可用LP时仍然运作的问题.
+- 添加强化训练
+- Fixed step height issue with C&B stuff. Apparently step height is now 0.6 by default instead of 0.5.
+- 添加仪式: 净灵之曲, 用于移除束灵盔甲的强化
+- 添加仪式: 束灵进化, 可使束灵盔甲的最大强化点数提升至300.
+- 添加仪式: 伐林仪式, 用于砍树. 需要在主仪式石上放置一个箱子来收集掉落物
+- 添加仪式: 虹吸圣曲, 用于吸收其附近半径16方块内的液体, 并将这些液体存储于其上方的液体容器中. 该液体容器至少需要能容纳一桶你想要储入其中的液体. 
+- 添加仪式: 祭坛集结号, 它可以将其上方容器中的符文和方块以一个祭坛的形式摆出来. 全自动祭坛建造
+- 添加仪式: 折域大门
+- 添加仪式: 铺设仪式. 将其上方容器的方块放置出来.
+- 添加仪式: Le Vulcanos Frigius
+
+- 添加束灵盔甲的标签, 显示当前盔甲的强化点数.
+- 添加训练手镯的合成. 将其与一个强化手册于铁砧中
+- 改善和风之唤的作用范围
+- 修复绿丛仪式
+- 修复挖掘仪式, 使之不再一次性破坏所有方块
+- Removed the FOV effect from the Quick Feet speed upgrade.
+- 恶魔坩埚上的次要工作
+- 坩埚现在会为狱火熔炉附件的醇酒之晶填充
+- 修复重新加载世界后移除红石信号时, 仪式无法正常重启
+- 添加传送印记, 用于将使用者传送至绑定的传送器
+- 添加移位印记, 对着方块潜行右键将其储入印记中, NBT保留
+
+------------------------------------------------------
+Version 2.0.0-17
+------------------------------------------------------
+- 添加束灵盔甲强化
+	- 日光动力
+	- 死神竞跑
+	- [神秘时代]古碑守护
+- 修复当手持其他物品右击祭坛时祭坛的进度重置
+- 修复占卜和见解印记未绑定时右击祭坛造成的崩溃
+- 添加下列印记的合成:
+	- 压挤印记
+	- 影桥印记
+	- 绝影印记
+	- 急速印记
+- 匕首/刀现在避开盔甲的检测
+
+------------------------------------------------------
+Version 2.0.0-16
+------------------------------------------------------
+- 修复一个气血宝珠相关的重要bug.
+
+------------------------------------------------------
+Version 2.0.0-15
+------------------------------------------------------
+- 添加血光印记的矩阵材质及其试剂. 使血光印记右击方块时放置一个光源
+- 添加磁引印记的矩阵材质及其试剂
+- 添加祭坛有它的缓冲槽存取的能力 (Semi-tested)
+- 改进大数据的易读性
+- 修复炼金矩阵的破坏颗粒
+- Waila支持炼金矩阵
+- 修复通过红石信号激活时仪式吞LP的问题
+- 仪式石现在都掉落为空白仪式石
+- 束缚之剑现在可以附魔
+- 添加束灵头盔的揭示护目镜强化. 
+- 修复配置文件的禁止仪式
+- [API] 关于绑定系统的大量修改.  It's now handled automatically for all items that implement IBindable.
+- 添加熏香祭坛系统
+- 为路由节点, 熏香祭坛, 狱火熔炉添加模型
+
+------------------------------------------------------
+Version 2.0.0-14
+------------------------------------------------------
+- [API] Added support for some IMC methods:
+    - FMLInterModComs.sendMessage("BloodMagic", "teleposerBlacklist", ItemStack)
+    - FMLInterModComs.sendMessage("BloodMagic", "sacrificeValue", "ClassName;Value")
+    - FMLInterModComs.sendMessage("BloodMagic", "greenGroveBlacklist", "domain:name")
+- 修复束缚之剑的虚弱气血碎片掉落
+- 修复恶魔意识, 使你可以实际地将它捡起!
+
+------------------------------------------------------
+Version 2.0.0-13
+------------------------------------------------------
+- 添加道路方块的合成与临时材质, 更多道路方块将会添加.
+- 调整熏香祭坛, 并添加其合成
+- 修复血光印记, 不再有发亮的彩色颗粒
+- 占卜印记可以查看熏香祭坛的信息
+- Fix another NPE when checking of a player has a full set of Living Armor
+
+------------------------------------------------------
+Version 2.0.0-12
+------------------------------------------------------
+- This build doesn't exist. Shhh
+
+------------------------------------------------------
+Version 2.0.0-11
+------------------------------------------------------
+- Fix NPE when checking if a player has a full Living Armor set
+
+------------------------------------------------------
+Version 2.0.0-10
+------------------------------------------------------
+- 添加感知盔甲的合成 - 制作一个感知盔甲宝石, 手持右键来切换盔甲.
+- 添加 较大 与 精致醇酒之晶的合成. 目前的合成方式是暂时的.
+- 更新材质.
+- 添加通过醇酒之晶来注满其他醇酒之晶的功能. 手持其中一个右键来填充你背包中另一醇酒之晶.
+- 不再削弱仪式石的合成, 现在合成供应再次为4个
+- 仪式现在可以用红石控制开关. 向主仪式石提供红石信号将使其暂停.
+- 使感知之剑能够防御.
+- 修复感知之剑, 现在即便未激活也能造成伤害 - 只是减少伤害
+- 当玩家的醇酒之石全部都注满时, 捡起的恶魔意志将会消失
+
+------------------------------------------------------
+Version 2.0.0-9
+------------------------------------------------------
+- 修复仪式无故引起恶心效果的问题.
+
+------------------------------------------------------
+Version 2.0.0-8
+------------------------------------------------------
+- 修复在激活仪式时服务器处理导致的崩溃
+- 添加路由系统的大多数东西
+
+------------------------------------------------------
+Version 2.0.0-7
+------------------------------------------------------
+- JEI现在有祭坛合成的更多信息. 将鼠标放在祭坛图示上查看.
+- 在服务器端中加入血之祭坛的颗粒效果
+- 允许于配置文件中修改实体献祭的标准
+- [API] 允许通过API修改实体牺牲标准. 以配置文件中的数据优先.
+- [API] 更容易获取物品或方块的处理
+- [API] 允许mods将自己的方块列入绿丛仪式/印记的黑名单
+
+------------------------------------------------------
+Version 2.0.0-6
+------------------------------------------------------
+- Fixed the LivingArmourTracker for defense so that it no longer ate up armour (om nom nom nom)
+
+------------------------------------------------------
+Version 2.0.0-5
+------------------------------------------------------
+- 调整感知之剑的魂魄掉落率
+- 不再与1.8.8兼容
+- 清理一些JEI中的杂乱事项
+- 对于一些服务器中可能出现的问题进行修复
+
+
+------------------------------------------------------
+Version 2.0.0-4
+------------------------------------------------------
+- 添加物防强化(坚韧皮肤)
+- 添加最大生命值强化(健壮体质)
+- 添加近战伤害强化(猛烈打击)
+- 添加狙击诀窍强化 (Have fun finding it! :D)
+- 添加五阶宝珠合成以及恶魔激活水晶
+- 添加仪式:
+	- 牧养仪式
+	- 丰收仪式
+	- 磁引仪式
+	- 挖掘仪式
+	- 盛宴之歌
+	
+- 添加新的恶魔魂魄系统
+	- 添加物品怨灵之魂
+	- 添加感知之剑, 其通过魂魄充能
+	- 添加细块醇酒之晶，用于储存更多魂魄
+	- 灵灵灵灵灵灵灵灵灵灵灵灵魂魂魂魂魂魂魂
+	- 添加狱火熔炉
+	- 添加原始投网及其合成 - 有25%的几率使生物掉落其灵魂
+	- 添加感知之弓
+	- 添加感知盔甲
+	
+- 修复可开关印记的绑定
+- 添加仪式标签的保存
+
+------------------------------------------------------
+Version 2.0.0-3
+------------------------------------------------------
+- 修复在服务器中手持熔岩晶体Shift右键熔炉时 客户端出现的问题
+- 添加束灵盔甲的中毒强化
+- 修复采掘强化
+- 添加束灵盔甲的牺牲强化(结实掌心)
+- 添加束灵盔甲的击退阻力强化, 通过进食训练(健身者)
+
+
+------------------------------------------------------
+Version 2.0.0-2
+------------------------------------------------------
+- 添加生命本质桶的合成
+- 添加LP在祭坛中的渲染
+- 添加束灵盔甲以及一些强化内容:
+	- 添加速度强化
+	- 添加采掘强化
+- 修改占卜印记的合成方式 - 由于在服务器中有些问题 现在不再是使用一块玻璃 (tempramental)
+- 修改学徒气血宝珠的合成方式，以红石块代替
+- 添加风之试剂的合成
+
+
+------------------------------------------------------
+Version 2.0.0
+------------------------------------------------------
+
+Minecraft1.8.9的首个开放测试版本! 该版本是完全重头编写的, 有着大量的更改, Mod中的设备有些已经更改/即将更改. 从而该mod将跟以前类似的重复操作有些许不同.
+Mod与Just Enough Item (JEI)的合成查询兼容. 所以强烈建议你安装JEI, 
+Minecraft1.8.9的首个开放测试版本! 该版本是完全重头编写的, 有着大量的更改, Mod中的设备有些已经更改/即将更改. 从而该mod将跟以前类似的重复操作有些许不同.
+这会让你研究新设备时轻松很多
+因为这是重新编写的测试版本, 所以将会有许多未完成内容. 我正尽可能更快的添加一些新内容, 同时我和我的团队也只是普通人, 请给予一点耐心让我们把这个mod做到它所能达到的最好!
+另外, 欢迎提交错误报告或新特性的建议到 github , https://github.com/WayofTime/BloodMagic. 我们会给予答复!
+
+New
+- 新增"炼金矩阵"合成 - 使用"奥术粉灰"在地面右键绘下一个矩阵. 然后拿着前后两个材料在矩阵上右键 - 矩阵破坏后将把物品收回
+- JEI兼容
+- WAILA兼容 (无需第三方插件!)
+
+Changed
+- 许多内容有更改. 不太好列出来.
+- 所有物品的材质更改. 材质包提供自 CyanideX's Unity texture pack. 来自 Unity 团队的 BBoldt 和 Yulife (Inap) 是新加入我们的永久材质画手.
+
+Bug 修复
+-
