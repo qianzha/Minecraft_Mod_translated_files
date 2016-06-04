@@ -1,0 +1,625 @@
+#Creative Tab
+itemGroup.BloodMagic.creativeTab=血魔法
+itemGroup.BloodMagic.creativeTabTome=血魔法强化手册
+
+#Items
+item.BloodMagic.activationCrystal.weak.name=[虚弱]激活水晶
+item.BloodMagic.activationCrystal.awakened.name=[觉醒]激活水晶
+item.BloodMagic.activationCrystal.creative.name=[创造]激活水晶
+
+item.BloodMagic.sacrificialDagger.normal.name=牺牲匕首
+item.BloodMagic.sacrificialDagger.creative.name=[创造]牺牲匕首
+item.BloodMagic.pack.selfSacrifice.name=血液背包
+item.BloodMagic.pack.sacrifice.name=斗士铠衣
+item.BloodMagic.daggerOfSacrifice.name=献祭刀
+
+item.BloodMagic.lavaCrystal.name=熔岩晶体
+
+item.BloodMagic.bound.sword.name=束缚之剑
+item.BloodMagic.bound.pickaxe.name=束缚之镐
+item.BloodMagic.bound.axe.name=束缚之斧
+item.BloodMagic.bound.shovel.name=束缚之锹
+
+item.BloodMagic.bucket.lifeEssence.name=生命源质桶
+
+item.BloodMagic.scribe.water.name=元素铭文工具: 水
+item.BloodMagic.scribe.fire.name=元素铭文工具: 火
+item.BloodMagic.scribe.earth.name=元素铭文工具: 土
+item.BloodMagic.scribe.air.name=元素铭文工具: 风
+item.BloodMagic.scribe.dusk.name=元素铭文工具: 薄暮
+item.BloodMagic.scribe.dawn.name=元素铭文工具: 破晓
+
+item.BloodMagic.focus.weak.name=传送核心
+item.BloodMagic.focus.enhanced.name=[加强]传送核心
+item.BloodMagic.focus.reinforced.name=[强化]传送核心
+item.BloodMagic.focus.demonic.name=[恶魔]传送核心
+
+item.BloodMagic.slate.blank.name=空白石板
+item.BloodMagic.slate.reinforced.name=强化石板
+item.BloodMagic.slate.imbued.name=灌输石板
+item.BloodMagic.slate.demonic.name=恶魔石板
+item.BloodMagic.slate.ethereal.name=悬幽石板
+
+item.BloodMagic.orb.weak.name=[虚弱]气血宝珠
+item.BloodMagic.orb.apprentice.name=[学徒]气血宝珠
+item.BloodMagic.orb.magician.name=[法师]气血宝珠
+item.BloodMagic.orb.master.name=[导师]气血宝珠
+item.BloodMagic.orb.archmage.name=[贤者]气血宝珠
+item.BloodMagic.orb.transcendent.name=[卓越]气血宝珠
+
+item.BloodMagic.reagent.incendium.name=烈焰元素
+item.BloodMagic.reagent.magicales.name=魔法元素
+item.BloodMagic.reagent.sanctus.name=神圣元素
+item.BloodMagic.reagent.aether.name=以太元素
+item.BloodMagic.reagent.crepitous.name=爆破元素
+item.BloodMagic.reagent.crystallos.name=冰晶元素
+item.BloodMagic.reagent.terrae.name=大地元素
+item.BloodMagic.reagent.aquasalus.name=液之元素
+item.BloodMagic.reagent.tennebrae.name=暗黑元素
+item.BloodMagic.reagent.offensa.name=攻势元素
+item.BloodMagic.reagent.praesidium.name=守护元素
+item.BloodMagic.reagent.orbisterrae.name=奥土元素
+item.BloodMagic.reagent.virtus.name=力量元素
+item.BloodMagic.reagent.reductus.name=代价元素
+item.BloodMagic.reagent.potentia.name=效能元素
+
+item.BloodMagic.bloodShard.weak.name=[虚弱]气血碎片
+item.BloodMagic.bloodShard.demon.name=[恶魔]气血碎片
+
+item.BloodMagic.baseComponent.reagentWater.name=水之试剂
+item.BloodMagic.baseComponent.reagentLava.name=熔岩试剂
+item.BloodMagic.baseComponent.reagentAir.name=风之试剂
+item.BloodMagic.baseComponent.reagentFastMiner.name=采掘试剂
+item.BloodMagic.baseComponent.reagentVoid.name=虚空试剂
+item.BloodMagic.baseComponent.reagentGrowth.name=促生试剂
+item.BloodMagic.baseComponent.reagentAffinity.name=元素试剂
+item.BloodMagic.baseComponent.reagentSight.name=见解试剂
+item.BloodMagic.baseComponent.reagentBinding.name=束缚试剂
+item.BloodMagic.baseComponent.reagentSuppression.name=抑液试剂
+item.BloodMagic.baseComponent.frameParts.name=框架零件
+item.BloodMagic.baseComponent.reagentBloodLight.name=血光试剂
+item.BloodMagic.baseComponent.reagentMagnetism.name=磁引试剂
+item.BloodMagic.baseComponent.reagentHaste.name=急速试剂
+item.BloodMagic.baseComponent.reagentBridge.name=影桥试剂
+item.BloodMagic.baseComponent.reagentCompression.name=压挤试剂
+item.BloodMagic.baseComponent.reagentSeverance.name=隔绝试剂
+
+item.BloodMagic.baseComponent.reagentTeleposition.name=传送试剂
+item.BloodMagic.baseComponent.reagentTransposition.name=移位试剂
+
+item.BloodMagic.baseComponent.ironSand.name=铁矿砂
+item.BloodMagic.baseComponent.goldSand.name=金矿砂
+item.BloodMagic.baseComponent.coalSand.name=煤矿砂
+item.BloodMagic.baseComponent.plantOil.name=植物油
+item.BloodMagic.baseComponent.sulfur.name=硫磺
+item.BloodMagic.baseComponent.saltpeter.name=硝石
+
+item.BloodMagic.cuttingFluid.basicCuttingFluid.name=基础切削油
+item.BloodMagic.cuttingFluid.explosive.name=爆炸火药
+
+item.BloodMagic.demonCrystal.crystalDefault.name=邪灵魂魄晶体
+item.BloodMagic.demonCrystal.crystalCorrosive.name=腐蚀性魂魄晶体
+item.BloodMagic.demonCrystal.crystalDestructive.name=破坏性魂魄晶体
+item.BloodMagic.demonCrystal.crystalVengeful.name=复仇性魂魄晶体
+item.BloodMagic.demonCrystal.crystalSteadfast.name=坚定性魂魄晶体
+
+item.BloodMagic.monsterSoul.base.name=邪灵之魂
+
+item.BloodMagic.sigil.air.name=空气印记
+item.BloodMagic.sigil.bloodLight.name=血光印记
+item.BloodMagic.sigil.compression.name=压挤印记
+item.BloodMagic.sigil.divination.name=占卜印记
+item.BloodMagic.sigil.water.name=水之印记
+item.BloodMagic.sigil.lava.name=熔岩印记
+item.BloodMagic.sigil.void.name=虚空印记
+item.BloodMagic.sigil.greenGrove.name=绿丛印记
+item.BloodMagic.sigil.elementalAffinity.name=元素印记
+item.BloodMagic.sigil.haste.name=急速印记
+item.BloodMagic.sigil.suppression.name=抑液印记
+item.BloodMagic.sigil.magnetism.name=磁引印记
+item.BloodMagic.sigil.fastMiner.name=速掘印记
+item.BloodMagic.sigil.seer.name=见解印记
+item.BloodMagic.sigil.phantomBridge.name=影桥印记
+item.BloodMagic.sigil.whirlwind.name=旋风印记
+item.BloodMagic.sigil.enderSeverance.name=绝影印记
+
+item.BloodMagic.sigil.teleposition.name=传送印记
+item.BloodMagic.sigil.transposition.name=移位印记
+
+item.BloodMagic.livingArmour.helmet.name=束灵头盔
+item.BloodMagic.livingArmour.chest.name=束灵胸甲
+item.BloodMagic.livingArmour.legs.name=束灵护腿
+item.BloodMagic.livingArmour.boots.name=束灵靴子
+item.BloodMagic.sentientArmour.helmet.name=感知头盔
+item.BloodMagic.sentientArmour.chest.name=感知胸甲
+item.BloodMagic.sentientArmour.legs.name=感知护腿
+item.BloodMagic.sentientArmour.boots.name=感知靴子
+
+item.BloodMagic.altarMaker.name=祭坛搭建工具
+
+item.BloodMagic.ritualDivinernormal.name=仪式推测仗
+item.BloodMagic.ritualDivinerdusk.name=仪式推测仗 [薄暮]
+item.BloodMagic.ritualDivinerdawn.name=仪式推测仗 [破晓]
+item.BloodMagic.ritualReader.name=仪式调整钳
+
+item.BloodMagic.arcaneAshes.name=奥术粉灰
+item.BloodMagic.upgradeTome.name=束灵盔甲强化手册
+item.BloodMagic.upgradeTrainer.name=束灵盔甲训练手镯
+
+item.BloodMagic.sentientSword.name=感知之剑
+item.BloodMagic.soulGem.petty.name=[微小]塔尔塔宝石
+item.BloodMagic.soulGem.lesser.name=[细块]塔尔塔宝石
+item.BloodMagic.soulGem.common.name=[普通]塔尔塔宝石
+item.BloodMagic.soulGem.greater.name=[较大]塔尔塔宝石
+item.BloodMagic.soulGem.grand.name=[精制]塔尔塔宝石
+item.BloodMagic.soulSnare.base.name=原始投网
+item.BloodMagic.sentientBow.name=感知之弓
+item.BloodMagic.sentientArmourGem.name=感知盔甲宝石
+
+item.BloodMagic.nodeRouter.name=节点连接工具
+item.BloodMagic.itemFilter.exact.name=精确物品筛选器
+item.BloodMagic.itemFilter.ignoreNBT.name=NBT物品筛选器
+item.BloodMagic.itemFilter.modItems.name=Mod物品筛选器
+item.BloodMagic.itemFilter.oreDict.name=矿物物品筛选器
+
+item.BloodMagic.experienceTome.name=经验手册
+item.BloodMagic.sanguineBook.name=血染知书
+
+# Blocks
+tile.BloodMagic.fluid.lifeEssence.name=生命源质
+
+tile.BloodMagic.stone.ritual.master.name=主仪式石
+tile.BloodMagic.stone.ritual.imperfect.name=不完善的仪式石
+
+tile.BloodMagic.altar.name=血之祭坛
+tile.BloodMagic.alchemyArray.name=&r&f炼金矩阵
+
+tile.BloodMagic.rune.blank.name=空白符文
+tile.BloodMagic.rune.speed.name=速度符文
+tile.BloodMagic.rune.efficiency.name=效率符文
+tile.BloodMagic.rune.sacrifice.name=献祭符文
+tile.BloodMagic.rune.selfsacrifice.name=牺牲符文
+tile.BloodMagic.rune.displacement.name=转位符文
+tile.BloodMagic.rune.capacity.name=增容符文
+tile.BloodMagic.rune.augcapacity.name=超容符文
+tile.BloodMagic.rune.orb.name=宝珠符文
+tile.BloodMagic.rune.acceleration.name=促进符文
+tile.BloodMagic.rune.charging.name=充能符文
+
+
+tile.BloodMagic.ritualStone.blank.name=仪式石
+tile.BloodMagic.ritualStone.water.name=水之仪式石
+tile.BloodMagic.ritualStone.fire.name=火之仪式石
+tile.BloodMagic.ritualStone.earth.name=土之仪式石
+tile.BloodMagic.ritualStone.air.name=风之仪式石
+tile.BloodMagic.ritualStone.dusk.name=薄暮仪式石
+tile.BloodMagic.ritualStone.dawn.name=破晓仪式石
+
+tile.BloodMagic.bloodstonebrick.large.name=大血石砖
+tile.BloodMagic.bloodstonebrick.brick.name=血石砖
+tile.BloodMagic.crystal.large.name=晶簇块
+tile.BloodMagic.crystal.brick.name=晶簇砖
+tile.BloodMagic.bloodLight.name=血之光源
+tile.BloodMagic.spectralBlock.name=影桥方块
+tile.BloodMagic.phantom.name=影桥方块
+tile.BloodMagic.incenseAltar.name=熏香祭坛
+
+tile.BloodMagic.teleposer.name=传送器
+tile.BloodMagic.soulForge.name=狱火熔炉
+tile.BloodMagic.alchemyTable.name=炼金术桌
+tile.BloodMagic.demonCrucible.name=邪灵坩埚
+tile.BloodMagic.demonPylon.name=邪灵导能塔
+tile.BloodMagic.demonCrystallizer.name=邪灵结晶坛
+
+tile.BloodMagic.masterRouting.name=主控路由节点
+tile.BloodMagic.outputRouting.name=输出路由节点
+tile.BloodMagic.inputRouting.name=输入路由节点
+tile.BloodMagic.itemRouting.name=路由节点
+
+tile.BloodMagic.path.wood.name=木制路面
+tile.BloodMagic.path.woodtile.name=木瓦路面
+tile.BloodMagic.path.stone.name=石砖路面
+tile.BloodMagic.path.stonetile.name=石瓦路面
+tile.BloodMagic.path.wornstone.name=碎石砖路面
+tile.BloodMagic.path.wornstonetile.name=碎石路面
+tile.BloodMagic.path.obsidian.name=黑曜石砖路面
+tile.BloodMagic.path.obsidiantile.name=黑曜石瓦
+
+tile.BloodMagic.dimensionalPortal.name=空间传送门
+tile.BloodMagic.bloodTank.name=血液槽
+
+tile.BloodMagic.demonCrystalDEFAULT.name=邪灵魂魄晶簇
+tile.BloodMagic.demonCrystalCORROSIVE.name=腐蚀性魂魄晶簇
+tile.BloodMagic.demonCrystalDESTRUCTIVE.name=破坏性魂魄晶簇
+tile.BloodMagic.demonCrystalVENGEFUL.name=复仇性魂魄晶簇
+tile.BloodMagic.demonCrystalSTEADFAST.name=坚定性魂魄晶簇
+
+# Fluids
+fluid.lifeEssence=生命源质
+
+# Tooltips
+tooltip.BloodMagic.extraInfo=&9-按住 shift 了解更多信息-
+
+tooltip.BloodMagic.orb.desc=储存原生的生命源质
+tooltip.BloodMagic.orb.owner=来源: %s
+tooltip.BloodMagic.currentOwner=当前所有者: %s
+tooltip.BloodMagic.currentTier=当前层级: %d
+tooltip.BloodMagic.config.disabled=于配置信息中禁用
+
+tooltip.BloodMagic.activated=激活
+tooltip.BloodMagic.deactivated=停用
+
+tooltip.BloodMagic.sigil.air.desc=&o我感到轻松多了...
+tooltip.BloodMagic.sigil.bloodLight.desc=&o我看见了一束光明!
+tooltip.BloodMagic.sigil.compression.desc=&o钻石之手
+tooltip.BloodMagic.sigil.divination.desc=&o窥视灵魂
+tooltip.BloodMagic.sigil.divination.otherNetwork=窥视 %s 的灵魂
+tooltip.BloodMagic.sigil.divination.currentAltarTier=当前层级: %d
+tooltip.BloodMagic.sigil.divination.currentEssence=当前源质: %d LP
+tooltip.BloodMagic.sigil.divination.currentAltarCapacity=当前容量: %d LP
+tooltip.BloodMagic.sigil.divination.currentTranquility=当前静谧: %d
+tooltip.BloodMagic.sigil.divination.currentBonus=当前效益: +%d%%
+tooltip.BloodMagic.sigil.water.desc=&o无限水源?
+tooltip.BloodMagic.sigil.lava.desc=&o噢好烫! 不要吃
+tooltip.BloodMagic.sigil.void.desc=&o胜过速易洁®!
+tooltip.BloodMagic.sigil.greenGrove.desc=&o绿色环保无污染
+tooltip.BloodMagic.sigil.magnetism.desc=&o我现在非常具有吸引力
+tooltip.BloodMagic.sigil.suppression.desc=&o比念力移动更好...
+tooltip.BloodMagic.sigil.haste.desc=&o42剂咖啡因后...
+tooltip.BloodMagic.sigil.fastMiner.desc=&o继续挖, 继续挖...
+tooltip.BloodMagic.sigil.elementalAffinity.desc=&o落入焰中的鱼儿!
+tooltip.BloodMagic.sigil.seer.desc=&o当看到的一切还不足够
+tooltip.BloodMagic.sigil.seer.currentAltarProgress=当前进度: %d LP/ %s LP
+tooltip.BloodMagic.sigil.seer.currentAltarProgress.percent=当前进度: %s
+tooltip.BloodMagic.sigil.seer.currentAltarConsumptionRate=消耗率: %d LP
+tooltip.BloodMagic.sigil.seer.currentAltarTier=当前层级: %d
+tooltip.BloodMagic.sigil.seer.currentEssence=当前源质: %d LP
+tooltip.BloodMagic.sigil.seer.currentAltarCapacity=当前容量: %d LP
+tooltip.BloodMagic.sigil.seer.currentCharge=当前耗能: %d
+tooltip.BloodMagic.sigil.seer.currentTranquility=当前静谧: %d
+tooltip.BloodMagic.sigil.seer.currentBonus=当前效益: +%d%%
+tooltip.BloodMagic.sigil.phantomBridge.desc=&o御气于青空之上...
+tooltip.BloodMagic.sigil.whirlwind.desc=&o最好不要穿裙子
+tooltip.BloodMagic.sigil.enderSeverance.desc=&o使末影人遇上一个严峻形势!
+tooltip.BloodMagic.sigil.teleposition.desc=随时可以脱离这里.
+tooltip.BloodMagic.sigil.transposition.desc=感受原力的力量, 我年轻的学徒.
+
+tooltip.BloodMagic.bound.sword.desc=&o屠杀幼弱之生灵
+tooltip.BloodMagic.bound.pickaxe.desc=&o无情地凿通大地
+tooltip.BloodMagic.bound.axe.desc=&o恶魔般的滥砍滥伐
+tooltip.BloodMagic.bound.shovel.desc=&o洗扫大地除去尘土
+
+tooltip.BloodMagic.sacrificialDagger.desc=只要轻轻划过手指...
+tooltip.BloodMagic.slate.desc=在祭坛中将石头转化
+tooltip.BloodMagic.inscriber.desc=在墙面上的文字...
+
+tooltip.BloodMagic.pack.selfSacrifice.desc=相当不舒适的背包...
+tooltip.BloodMagic.pack.sacrifice.desc=Description
+tooltip.BloodMagic.pack.stored=储存: %d LP
+
+tooltip.BloodMagic.activationCrystal.weak=激活低等仪式
+tooltip.BloodMagic.activationCrystal.awakened=激活更强大的仪式
+tooltip.BloodMagic.activationCrystal.creative=创造模式 - 激活任何仪式
+
+tooltip.BloodMagic.diviner.currentRitual=当前仪式: 
+tooltip.BloodMagic.diviner.blankRune=空白仪式石: %d
+tooltip.BloodMagic.diviner.waterRune=水之仪式石: %d
+tooltip.BloodMagic.diviner.airRune=风之仪式石: %d
+tooltip.BloodMagic.diviner.fireRune=火之仪式石: %d
+tooltip.BloodMagic.diviner.earthRune=土之仪式石: %d
+tooltip.BloodMagic.diviner.duskRune=薄暮仪式石: %d
+tooltip.BloodMagic.diviner.dawnRune=破晓仪式石: %d
+tooltip.BloodMagic.diviner.totalRune=仪式石总数: %d
+tooltip.BloodMagic.diviner.extraInfo=按 shift 了解详细信息
+tooltip.BloodMagic.diviner.currentDirection=当前朝向: %s
+
+tooltip.BloodMagic.ritualReader.currentState=当前模式: %s
+tooltip.BloodMagic.ritualReader.set_area=定义区域
+tooltip.BloodMagic.ritualReader.information=信息
+tooltip.BloodMagic.ritualReader.set_will_types=设置魂魄消耗
+tooltip.BloodMagic.ritualReader.desc.set_area=右击已激活仪式的主仪式石, 选至你想更改的区域, 随后分别右击新区域角落的两个方块. 
+tooltip.BloodMagic.ritualReader.desc.information=右击已激活仪式的主仪式石了解仪式的基本信息.
+tooltip.BloodMagic.ritualReader.desc.set_will_types=设置仪式将消耗的邪灵魂魄类型, 工具栏中存放该类晶体右击主仪式石.
+
+tooltip.BloodMagic.arcaneAshes=用于绘制炼金矩阵的粉灰
+
+tooltip.BloodMagic.telepositionFocus.coords=当前坐标: (%d, %d, %d)
+tooltip.BloodMagic.telepositionFocus.dimension=世界ID: %d
+tooltip.BloodMagic.telepositionFocus.weak=用于在世界中转移区域
+tooltip.BloodMagic.telepositionFocus.enhanced=用于在世界中转移区域
+tooltip.BloodMagic.telepositionFocus.reinforced=用于在世界中转移区域
+tooltip.BloodMagic.telepositionFocus.demonic=用于在世界中转移区域
+
+tooltip.BloodMagic.livingArmour.upgrade.speed=迅捷双足
+tooltip.BloodMagic.livingArmour.upgrade.digging=矮人力量
+tooltip.BloodMagic.livingArmour.upgrade.poisonResist=抗毒体质
+tooltip.BloodMagic.livingArmour.upgrade.selfSacrifice=结实手心
+tooltip.BloodMagic.livingArmour.upgrade.knockback=强劲身躯
+tooltip.BloodMagic.livingArmour.upgrade.physicalProtect=坚韧皮肤
+tooltip.BloodMagic.livingArmour.upgrade.health=健壮体质
+tooltip.BloodMagic.livingArmour.upgrade.meleeDamage=猛烈击打
+tooltip.BloodMagic.livingArmour.upgrade.arrowShot=狙击诀窍
+tooltip.BloodMagic.livingArmour.upgrade.stepAssist=步伐补助
+tooltip.BloodMagic.livingArmour.upgrade.grimReaper=死神竞跑
+tooltip.BloodMagic.livingArmour.upgrade.solarPowered=阳光能量
+tooltip.BloodMagic.livingArmour.upgrade.thaumRunicShielding=古碑守护
+tooltip.BloodMagic.livingArmour.upgrade.revealing=揭示
+tooltip.BloodMagic.livingArmour.upgrade.experienced=熟练
+tooltip.BloodMagic.livingArmour.upgrade.jump=壮实双腿
+tooltip.BloodMagic.livingArmour.upgrade.fallProtect=柔和落叶
+tooltip.BloodMagic.livingArmour.upgrade.graveDigger=掘墓者
+tooltip.BloodMagic.livingArmour.upgrade.sprintAttack=冲撞击打
+tooltip.BloodMagic.livingArmour.upgrade.criticalStrike=精准击打
+tooltip.BloodMagic.livingArmour.upgrade.elytra=鞘翅
+tooltip.BloodMagic.livingArmour.upgrade.level=%s (Level %d)
+tooltip.BloodMagic.livingArmour.upgrade.points=&6强化点数: %s / %s
+
+tooltip.BloodMagic.will=魂魄意识: %1$,.2f
+tooltip.BloodMagic.sentientSword.desc=以怨念之魂魄唤起其最大潜能.
+tooltip.BloodMagic.soulGem.petty=用于存储微量魂魄的晶石
+tooltip.BloodMagic.soulGem.lesser=用于存储少量魂魄的晶石
+tooltip.BloodMagic.soulGem.common=用于存储更多魂魄的晶石
+tooltip.BloodMagic.soulGem.greater=用于存储大量魂魄的晶石
+tooltip.BloodMagic.soulGem.grand=用于存储极大数量魂魄的晶石
+tooltip.BloodMagic.soulSnare.desc=投掷向怪物并消灭它们来获取附于其身的邪灵之魂
+
+tooltip.BloodMagic.itemFilter.exact=魂魄将确保物品精确匹配
+tooltip.BloodMagic.itemFilter.ignoreNBT=忽视筛选的NBT
+tooltip.BloodMagic.itemFilter.modItems=同Mod的物品全部匹配
+tooltip.BloodMagic.itemFilter.oreDict=凭借矿物辞典筛选
+
+tooltip.BloodMagic.fluid.type=所含液体
+tooltip.BloodMagic.fluid.amount=数量
+tooltip.BloodMagic.fluid.capacity=容量
+
+tooltip.BloodMagic.ghost.everything=任何物品
+tooltip.BloodMagic.ghost.amount=幽灵物品数量: %d
+
+tooltip.BloodMagic.currentType.default=魂魄: 原生意识
+tooltip.BloodMagic.currentType.corrosive=魂魄: 腐蚀意识
+tooltip.BloodMagic.currentType.destructive=魂魄: 破坏意识
+tooltip.BloodMagic.currentType.vengeful=魂魄: 复仇意识
+tooltip.BloodMagic.currentType.steadfast=魂魄: 坚定意识
+
+tooltip.BloodMagic.experienceTome=用于储存经验的书
+tooltip.BloodMagic.experienceTome.exp=经验值: %0.3f
+tooltip.BloodMagic.experienceTome.expLevel=等级: %d
+
+tooltip.BloodMagic.decoration.safe=安全装潢
+tooltip.BloodMagic.decoration.notSafe=危险装潢
+
+tooltip.BloodMagic.cuttingFluidRatio=%d/%d 所剩可用
+
+tooltip.BloodMagic.book.shifting=这些符号似乎... &o在变换着...
+
+# Ritual
+ritual.BloodMagic.blockRange.tooBig=提供的方块范围过大! 最多不超过 %s 个方块.
+ritual.BloodMagic.blockRange.tooFar=提供的方块范围太远! 需要在垂直距离 %s , 水平距离 %s 之内.
+ritual.BloodMagic.blockRange.inactive=该仪式石目前无活动, 没有可修改的范围.
+ritual.BloodMagic.blockRange.noRange=范围选择不恰当.
+ritual.BloodMagic.blockRange.firstBlock=记录新范围的第一个方块.
+ritual.BloodMagic.blockRange.success=新范围设置成功!
+
+ritual.BloodMagic.testRitual=测试仪式
+ritual.BloodMagic.waterRitual=涌泉仪式
+ritual.BloodMagic.lavaRitual=下界夜曲
+ritual.BloodMagic.greenGroveRitual=绿丛仪式
+ritual.BloodMagic.jumpRitual=高跳仪式
+ritual.BloodMagic.wellOfSufferingRitual=苦难之井
+ritual.BloodMagic.featheredKnifeRitual=羽刀仪式
+ritual.BloodMagic.regenerationRitual=重生仪式
+ritual.BloodMagic.harvestRitual=丰收之月
+ritual.BloodMagic.magneticRitual=磁引仪式
+ritual.BloodMagic.crushingRitual=挖掘仪式
+ritual.BloodMagic.fullStomachRitual=盛宴之歌
+ritual.BloodMagic.interdictionRitual=制止仪式
+ritual.BloodMagic.containmentRitual=牵制仪式
+ritual.BloodMagic.speedRitual=速移仪式
+ritual.BloodMagic.suppressionRitual=抑液仪式
+ritual.BloodMagic.expulsionRitual=驱逐氛场
+ritual.BloodMagic.zephyrRitual=和风之唤
+ritual.BloodMagic.upgradeRemoveRitual=净灵之曲
+ritual.BloodMagic.armourEvolveRitual=束灵进化
+ritual.BloodMagic.animalGrowthRitual=牧养仪式
+ritual.BloodMagic.forsakenSoulRitual=孤魂集会
+ritual.BloodMagic.crystalHarvestRitual=碎晶裂纹
+
+ritual.BloodMagic.cobblestoneRitual=极寒火山
+ritual.BloodMagic.placerRitual=铺设仪式
+ritual.BloodMagic.fellingRitual=伐林仪式
+ritual.BloodMagic.pumpRitual=虹吸圣曲
+ritual.BloodMagic.altarBuilderRitual=祭坛集结号
+ritual.BloodMagic.portalRitual=折域之门
+
+
+ritual.BloodMagic.waterRitual.info=通过主仪式石生成一个水源方块.
+ritual.BloodMagic.lavaRitual.info=通过主仪式石生成一个岩浆源方块.
+ritual.BloodMagic.greenGroveRitual.info=在其范围内总之农作物.
+ritual.BloodMagic.jumpRitual.info=使实体跃向高空.
+ritual.BloodMagic.wellOfSufferingRitual.info=攻击其伤害范围内的生物, 并将所获LP储入邻近的血之祭坛.
+ritual.BloodMagic.featheredKnifeRitual.info=扣除其范围内的玩家生命值, 并将所获LP储入邻近的血之祭坛.
+ritual.BloodMagic.regenerationRitual.info=治疗其范围内失去生命值的实体.
+ritual.BloodMagic.harvestRitual.info=收割其范围内的植物, 产物掉落于地上.
+ritual.BloodMagic.magneticRitual.info=将地底的矿石传送至其放置区域.
+ritual.BloodMagic.crushingRitual.info=破坏其挖掘范围内的方块, 并将掉落物放置于所连接的箱子.
+ritual.BloodMagic.fullStomachRitual.info=从连接的箱子中获取食物, 来补充玩家的饥饿值.
+ritual.BloodMagic.interdictionRitual.info=使其范围内的所有生物推离于主仪式石.
+ritual.BloodMagic.containmentRitual.info=使其范围内的所有生物牵引向主仪式石.
+ritual.BloodMagic.speedRitual.info=将其范围内的玩家以仪式方向抛射出去.
+ritual.BloodMagic.suppressionRitual.info=抑制其范围内的液体 - 停用仪式时恢复.
+ritual.BloodMagic.expulsionRitual.info=驱逐其范围内, 非激活者或主仪式石上方箱子中无绑定血宝珠的玩家, 离开该区域.
+ritual.BloodMagic.zephyrRitual.info=拾取其范围内的掉落物, 并放入所连接的箱子.
+ritual.BloodMagic.upgradeRemoveRitual.info=未有介绍.
+ritual.BloodMagic.armourEvolveRitual.info=未有介绍.
+ritual.BloodMagic.animalGrowthRitual.info=加快其范围内的幼年动物的生长速度.
+ritual.BloodMagic.forsakenSoulRitual.info=对其伤害范围内的生物造成伤害, 当生物死亡时, 其晶体范围内的邪灵晶簇将生长.
+ritual.BloodMagic.crystalHarvestRitual.info=破坏范围内的邪灵魂魄晶簇, 掉落物丢于晶簇顶部.
+
+ritual.BloodMagic.placerRitual.info=取出所连接的容器中的方块, 并放置于世界中.
+ritual.BloodMagic.fellingRitual.info=一个伐木设施, 该仪式将砍伐其范围内所有树与叶子, 并收集掉落物.
+ritual.BloodMagic.pumpRitual.info=从规定范围获取液体. 只有当所连接的液体容器至少有一桶量的相同液体时, 移出或储入液体.
+ritual.BloodMagic.altarBuilderRitual.info=将所连接的容器中的祭坛部件搭建出来.
+ritual.BloodMagic.portalRitual.info=创建一个传送门网络, 以激活者及直接接触方块为基础, 两者相同的两个传送门达成连接. 激活后未修改传送网络的情况下方块可以变更.
+
+ritual.BloodMagic.waterRitual.waterRange.info=(水源) 仪式放置水源方块的区域.
+ritual.BloodMagic.lavaRitual.lavaRange.info=(岩浆) 仪式放置岩浆方块的区域.
+ritual.BloodMagic.greenGroveRitual.growing.info=(生长) 仪式加快植物生长的区域.
+ritual.BloodMagic.jumpRitual.jumpRange.info=(跳跃) 在这个区域内的实体将跃向高空.
+ritual.BloodMagic.wellOfSufferingRitual.altar.info=(祭坛) 规定仪式检测血之祭坛的区域. 该项修改为添加或撤销一个坐标.
+ritual.BloodMagic.wellOfSufferingRitual.damage.info=(伤害) 规定仪式伤害生物的区域. 该区域内所有生物(除了玩家)将持续受到伤害.
+ritual.BloodMagic.featheredKnifeRitual.altar.info=(祭坛) 规定仪式检测血之祭坛的区域. 该项修改为添加或撤销一个坐标.
+ritual.BloodMagic.featheredKnifeRitual.damage.info=(伤害) 规定仪式伤害玩家的区域. 该区域内的玩家将持续受到伤害直至设定的生命值下限.
+ritual.BloodMagic.regenerationRitual.heal.info=(治愈) 该区域内的生物将获得 生命恢复buff.
+ritual.BloodMagic.harvestRitual.harvestRange.info=(收割) 该区域内的植物将被收割.
+ritual.BloodMagic.magneticRitual.placementRange.info=(放置) 仪式将把获取的矿石放置于该区域内.
+ritual.BloodMagic.crushingRitual.crushingRange.info=(挖掘) 该区域的方块将被破坏.
+ritual.BloodMagic.crushingRitual.chest.info=(箱子) 箱子位置, 仪式将把破坏的方块放入其中.
+ritual.BloodMagic.fullStomachRitual.fillRange.info=(喂食) 仪式将会喂食该区域内的玩家.
+ritual.BloodMagic.fullStomachRitual.chest.info=(箱子) 箱子位置, 仪式将提取其中的食物来喂食区域内的玩家.
+ritual.BloodMagic.interdictionRitual.interdictionRange.info=(推离) 仪式推离生物的区域. 无论该区域位于何处, 所有生物将被推离于主仪式石.
+ritual.BloodMagic.containmentRitual.containmentRange.info=(牵引) 仪式牵引生物的区域. 无论该区域位于何处, 所有生物将被牵引向主仪式石.
+ritual.BloodMagic.speedRitual.sanicRange.info=(速度) 所有位于该区域内的实体, 将被抛射向仪式摆相成的箭头方向. 
+ritual.BloodMagic.suppressionRitual.suppressionRange.info=(抑液) 该区域内所有液体将被仪式抑制.
+ritual.BloodMagic.expulsionRitual.expulsionRange.info=(驱逐) 
+ritual.BloodMagic.zephyrRitual.zephyrRange.info=(拾取) 该区域内的物品将被拾取储入所连接箱子.
+ritual.BloodMagic.zephyrRitual.chest.info=(箱子) 箱子位置, 仪式将把拾取的物品放入其中.
+ritual.BloodMagic.animalGrowthRitual.growing.info=(成长) 该区域内的动物将成长得更快.
+ritual.BloodMagic.forsakenSoulRitual.crystal.info=(晶体) 当有生物因仪式死亡时, 该区域内的晶簇生长速度将加快.
+ritual.BloodMagic.forsakenSoulRitual.damage.info=(伤害) 该区域内的生物将缓慢的收到伤害, 当死亡时晶簇将生长.
+ritual.BloodMagic.crystalHarvestRitual.crystal.info=(晶体) 晶簇将被破坏成仅留单晶的晶簇, 被破坏的晶体将掉落于世界.
+
+ritual.BloodMagic.placerRitual.placerRange.info=(放置) 仪式将放置方块的区域. 
+ritual.BloodMagic.placerRitual.chest.info=(箱子) 箱子位置, 仪式将提取其中的方块放置于世界中.
+ritual.BloodMagic.fellingRitual.fellingRange.info=(砍伐) 仪式将搜寻原木和树叶并进行砍伐的区域.
+ritual.BloodMagic.fellingRitual.chest.info=(箱子) 箱子位置, 仪式将把掉落物放入其中.
+ritual.BloodMagic.pumpRitual.pumpRange.info=(引水) 仪式于世界中获取液体的区域.
+
+# Chat
+chat.BloodMagic.altarMaker.setTier=层级设置: %d
+chat.BloodMagic.altarMaker.building=铺设一个 %d 层祭坛
+chat.BloodMagic.altarMaker.destroy=消除一个 %d 层祭坛
+chat.BloodMagic.altarMaker.creativeOnly=该物品仅限创造模式.
+
+chat.BloodMagic.damageSource=%s 的灵魂开始变得虚弱
+
+chat.BloodMagic.ritual.weak=你感到有股拉力, 但没有足够的力量来完成这个仪式.
+chat.BloodMagic.ritual.prevent=仪式在积极的抵抗你!
+chat.BloodMagic.ritual.activate=一股能量流经这个仪式!
+chat.BloodMagic.ritual.notValid=这些仪式石似乎有些摆放不得当...
+
+chat.BloodMagic.livingArmour.upgrade.poisonRemove=你感到已经好多了!
+chat.BloodMagic.livingArmour.upgrade.grimReaper=&6朦胧中一股能量使你脱离死亡边缘!
+chat.BloodMagic.livingArmour.newUpgrade=&4强化完成!
+
+chat.BloodMagic.routing.remove=移出记录位置
+chat.BloodMagic.routing.set=设置节点位置
+chat.BloodMagic.routing.link.master=连接到主节点!
+chat.BloodMagic.routing.link=节点连接完成
+
+chat.BloodMagic.altar.comp.glowstone=一个萤石块
+chat.BloodMagic.altar.comp.bloodstone=一个大血石砖
+chat.BloodMagic.altar.comp.beacon=一个信标
+chat.BloodMagic.altar.comp.bloodrune=一个气血符文
+chat.BloodMagic.altar.comp.crystal=一个无效物品
+chat.BloodMagic.altar.comp.notair=一个实心方块
+
+chat.BloodMagic.altar.nextTier=下一层级的血之祭坛缺失 %s 在 %s.
+
+# sekrit
+
+secret.BloodMagic.bread.bloody=&r&cBloody Bread
+secret.BloodMagic.bread.bloody.desc=仅为 &o极端的 &r&7紧急情况.
+
+# Commands
+commands.error.arg.invalid=无效参数
+commands.error.arg.missing=参数不足
+commands.error.arg.player.missing=你必须指定一个玩家来执行该命令.
+commands.error.404=命令未找到!
+commands.error.unknown=未知的命令!
+commands.error.perm=你没有使用该命令的权限.
+
+commands.success=成功执行
+
+commands.format.help=%s - %s
+commands.format.error=%s - %s
+
+commands.help.usage=/bloodmagic help
+commands.help.help=使用"/bloodmagic help"命令显示指令列表.
+
+commands.network.usage=/bloodmagic network [吸取(syphon)|添加(add)|查看(get)|填充(fill)|填满(cap)] <玩家> [数量]
+commands.network.help=灵魂网络实用工具
+commands.network.syphon.help=从指定玩家的灵魂网络中移出指定的LP值.
+commands.network.syphon.success=成功从 %s 吸取出 %dLP .
+commands.network.add.help=添加指定的LP值到指定玩家的灵魂网络中. 服从标准的LP增加规则.
+commands.network.add.success=成功添加 %dLP 到 %s 的灵魂网络.
+commands.network.set.help=将指定玩家的LP设置为所给数值.
+commands.network.set.success=成功将 %s 灵魂网络中的LP设置为 %d .
+commands.network.get.help=返还指定玩家灵魂网络中的LP值.
+commands.network.fill.help=将指定玩家的LP填充为 %d.
+commands.network.fill.success=成功填充 %s 的灵魂网络.
+commands.network.cap.help=填充指定玩家的灵魂网络至其所持有的最高阶气血宝珠容量的最大值.
+commands.network.cap.success=成功填满 %s 的灵魂网络.
+
+commands.bind.usage=/bloodmagic bind [是(true)|否(false)] [玩家]
+commands.bind.help=用于设置/解除对手持物品的绑定情况.
+commands.bind.success=绑定成功
+commands.bind.remove.success=解除绑定成功
+
+commands.orb.usage=/bloodmagic orb [设置(set)|查看(get)] <玩家> [等级]
+commands.orb.help=用于设置或查看玩家的最高血宝珠等级.
+
+commands.bind.usage=/bind <玩家>
+commands.bind.success=物品成功绑定!
+commands.bind.failed.noPlayer=没有指定玩家
+commands.bind.failed.alreadyBound=物品已经被绑定; 使用 /unbind 来解除绑定
+commands.bind.failed.notBindable=物品无法被绑定
+commands.unbind.usage=/unbind
+commands.unbind.success=物品成功解除绑定!
+commands.unbind.failed.notBindable=物品无法解除绑定
+commands.soulnetwork.usage=/soulnetwork <玩家> <添加(add)|减去(subtract)|填满(fill)|清空(empty)|查看(get)> [数量]
+commands.soulnetwork.add.success=成功添加 %dLP 到 %s 的灵魂网络!
+commands.soulnetwork.subtract.success=成功从 %s 的灵魂网络中减去 %dLP !
+commands.soulnetwork.fill.success=成功填满 %s 的灵魂网络!
+commands.soulnetwork.empty.success=成功清空 %s 的灵魂网络!
+commands.soulnetwork.get.success=%s 的灵魂网络中有 %dLP !
+commands.soulnetwork.noPlayer=没有指定玩家
+commands.soulnetwork.noCommand=这不符命令规定
+commands.soulnetwork.notACommand=这不是有效的命令
+commands.soulnetwork.fillMax.success=成功将 %s 的灵魂网络填满至其宝珠的最大值!
+commands.soulnetwork.create.success=创建 %s 的灵魂网络成功 (宝珠等级: %d)
+
+# JustEnoughItems
+jei.BloodMagic.recipe.altar=血之祭坛
+jei.BloodMagic.recipe.binding=炼金矩阵 (绑定)
+jei.BloodMagic.recipe.alchemyArrayCrafting=炼金矩阵
+jei.BloodMagic.recipe.soulForge=狱火熔炉
+jei.BloodMagic.recipe.alchemyTable=炼金术桌
+jei.BloodMagic.recipe.requiredLP=LP: %d
+jei.BloodMagic.recipe.requiredTier=层级: %d
+jei.BloodMagic.recipe.consumptionRate=消耗率: %d LP/t
+jei.BloodMagic.recipe.drainRate=消耗率: %d LP/t
+jei.BloodMagic.recipe.minimumSouls=最小值: %1$,.2f Will
+jei.BloodMagic.recipe.soulsDrained=消耗: %1$,.2f Will
+jei.BloodMagic.recipe.lpDrained=消耗: %,d LP
+jei.BloodMagic.recipe.ticksRequired=时间: %,d 刻
+
+jei.BloodMagic.desc.altarBuilder=该物品仅限创造模式，用于调试测试.\n\nShift + 右键 改变层级. 右键祭坛开始搭建.\n\n手持破坏祭坛时将全部移除.
+jei.BloodMagic.desc.demonicWill=附身于生物的邪灵意念之体现.\n\n可以通过用感知武器杀死生物掉落, 或是对着生物抛掷原始投网, 当它出现白色颗粒时杀了它.
+
+# WAILA
+waila.BloodMagic.sneak=&o潜行查看信息
+waila.BloodMagic.array.reagent=试剂: %s
+waila.BloodMagic.array.catalyst=石板: %s
+option.BloodMagic.bypassSneak=潜行
+option.BloodMagic.bloodAltar=血之祭坛
+option.BloodMagic.ritualController=仪式石
+option.BloodMagic.teleposer=传送器
+option.BloodMagic.array=炼金矩阵
+
+# Thaumcraft
+tc.research_category.BLOODMAGIC=血红奥术
+
+# Thaumcraft Research
+bloodmagic.research_name.BLOODMAGIC=血魔法
+bloodmagic.research_text.BLOODMAGIC=血红奥术
+bloodmagic.research_page.BLOODMAGIC.1=血魔法的领域总是似乎有些孤立且像是"个人"艺术, 同众所周知的喜爱隐居有时还有点疯癫的血魔法师. 然而, 自我牺牲与生命源质的力量甚至拥有超出一般血魔法师所见的用途, 事实上, 这种力量显然终究能应用于神秘学.
