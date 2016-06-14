@@ -93,6 +93,8 @@ item.BloodMagic.baseComponent.coalSand.name=煤矿砂
 item.BloodMagic.baseComponent.plantOil.name=植物油
 item.BloodMagic.baseComponent.sulfur.name=硫磺
 item.BloodMagic.baseComponent.saltpeter.name=硝石
+item.BloodMagic.baseComponent.neurotoxin.name=神经毒素
+item.BloodMagic.baseComponent.antiseptic.name=防腐剂
 
 item.BloodMagic.cuttingFluid.basicCuttingFluid.name=基础切削油
 item.BloodMagic.cuttingFluid.explosive.name=爆炸火药
@@ -156,6 +158,9 @@ item.BloodMagic.soulGem.grand.name=[精制]塔尔塔宝石
 item.BloodMagic.soulSnare.base.name=原始投网
 item.BloodMagic.sentientBow.name=感知之弓
 item.BloodMagic.sentientArmourGem.name=感知盔甲宝石
+item.BloodMagic.sentientAxe.name=感知之斧
+item.BloodMagic.sentientPickaxe.name=感知之镐
+item.BloodMagic.sentientShovel.name=感知之锹
 
 item.BloodMagic.nodeRouter.name=节点连接工具
 item.BloodMagic.itemFilter.exact.name=精确物品筛选器
@@ -165,6 +170,8 @@ item.BloodMagic.itemFilter.oreDict.name=矿物物品筛选器
 
 item.BloodMagic.experienceTome.name=经验手册
 item.BloodMagic.sanguineBook.name=血染知书
+
+item.BloodMagic.livingPointUpgrade.draftAngelus.name=祷告之始
 
 # Blocks
 tile.BloodMagic.fluid.lifeEssence.name=生命源质
@@ -287,6 +294,8 @@ tooltip.BloodMagic.sigil.transposition.desc=感受原力的力量, 我年轻的�
 tooltip.BloodMagic.sigil.holding.desc=印记掌控
 tooltip.BloodMagic.sigil.holding.sigilInSlot=印记 %d: %s
 
+tooltip.BloodMagic.livingArmourPointsUpgrade.desc=提升感知盔甲的最大点数至 %d.
+
 tooltip.BloodMagic.bound.sword.desc=&o屠杀幼弱之生灵
 tooltip.BloodMagic.bound.pickaxe.desc=&o无情地凿通大地
 tooltip.BloodMagic.bound.axe.desc=&o恶魔般的滥砍滥伐
@@ -354,12 +363,15 @@ tooltip.BloodMagic.livingArmour.upgrade.graveDigger=掘墓者
 tooltip.BloodMagic.livingArmour.upgrade.sprintAttack=冲撞击打
 tooltip.BloodMagic.livingArmour.upgrade.criticalStrike=精准击打
 tooltip.BloodMagic.livingArmour.upgrade.elytra=鞘翅
-tooltip.BloodMagic.livingArmour.upgrade.level=%s (Level %d)
+tooltip.BloodMagic.livingArmour.upgrade.level=%s (等级 %d)
 tooltip.BloodMagic.livingArmour.upgrade.points=&6强化点数: %s / %s
 
 tooltip.BloodMagic.will=意志质量: %1$,.2f
 tooltip.BloodMagic.sentientSword.desc=以恶魔意志唤起其最大潜能.
 tooltip.BloodMagic.soulGem.petty=用于存储微量意志的晶石
+tooltip.BloodMagic.sentientAxe.desc=以恶魔意志唤起其最大潜能.
+tooltip.BloodMagic.sentientPickaxe.desc=以恶魔意志唤起其最大潜能.
+tooltip.BloodMagic.sentientShovel.desc=以恶魔意志唤起其最大潜能.
 tooltip.BloodMagic.soulGem.lesser=用于存储少量意志的晶石
 tooltip.BloodMagic.soulGem.common=用于存储更多意志的晶石
 tooltip.BloodMagic.soulGem.greater=用于存储大量意志的晶石
