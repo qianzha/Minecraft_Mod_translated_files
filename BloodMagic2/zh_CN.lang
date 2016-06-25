@@ -125,7 +125,7 @@ item.BloodMagic.sigil.phantomBridge.name=影桥印记
 item.BloodMagic.sigil.whirlwind.name=旋风印记
 item.BloodMagic.sigil.enderSeverance.name=绝影印记
 item.BloodMagic.sigil.holding.name=集持印记
-item.BloodMagic.sigil.holding.display=&r%s: &o&n%s
+
 item.BloodMagic.sigil.teleposition.name=传送印记
 item.BloodMagic.sigil.transposition.name=移位印记
 
@@ -169,7 +169,7 @@ item.BloodMagic.itemFilter.modItems.name=Mod物品筛选器
 item.BloodMagic.itemFilter.oreDict.name=矿物物品筛选器
 
 item.BloodMagic.experienceTome.name=经验手册
-item.BloodMagic.sanguineBook.name=血染知书
+item.BloodMagic.sanguineBook.name=碍视之书
 
 item.BloodMagic.livingPointUpgrade.draftAngelus.name=祷告之始
 
@@ -208,7 +208,7 @@ tile.BloodMagic.bloodstonebrick.brick.name=血石砖
 tile.BloodMagic.crystal.large.name=晶簇块
 tile.BloodMagic.crystal.brick.name=晶簇砖
 tile.BloodMagic.bloodLight.name=血之光源
-tile.BloodMagic.spectralBlock.name=影桥方块
+tile.BloodMagic.spectralBlock.name=幽灵方块
 tile.BloodMagic.phantom.name=影桥方块
 tile.BloodMagic.incenseAltar.name=熏香祭坛
 
@@ -306,7 +306,7 @@ tooltip.BloodMagic.slate.desc=在祭坛中将石头转化
 tooltip.BloodMagic.inscriber.desc=在墙面上的文字...
 
 tooltip.BloodMagic.pack.selfSacrifice.desc=相当不舒适的背包...
-tooltip.BloodMagic.pack.sacrifice.desc=Description
+
 tooltip.BloodMagic.pack.stored=储存: %d LP
 
 tooltip.BloodMagic.activationCrystal.weak=激活低等仪式
@@ -345,6 +345,7 @@ tooltip.BloodMagic.telepositionFocus.demonic=用于在世界中转移区域
 tooltip.BloodMagic.livingArmour.upgrade.speed=迅捷双足
 tooltip.BloodMagic.livingArmour.upgrade.digging=矮人力量
 tooltip.BloodMagic.livingArmour.upgrade.poisonResist=抗毒体质
+tooltip.BloodMagic.livingArmour.upgrade.fireResist=焰火之礼
 tooltip.BloodMagic.livingArmour.upgrade.selfSacrifice=结实手心
 tooltip.BloodMagic.livingArmour.upgrade.knockback=强劲身躯
 tooltip.BloodMagic.livingArmour.upgrade.physicalProtect=坚韧皮肤
@@ -464,8 +465,8 @@ ritual.BloodMagic.speedRitual.info=将其范围内的玩家以仪式方向抛射
 ritual.BloodMagic.suppressionRitual.info=抑制其范围内的液体 - 停用仪式时恢复.
 ritual.BloodMagic.expulsionRitual.info=驱逐其范围内, 非激活者或主仪式石上方箱子中无绑定血宝珠的玩家, 离开该区域.
 ritual.BloodMagic.zephyrRitual.info=拾取其范围内的掉落物, 并放入所连接的箱子.
-ritual.BloodMagic.upgradeRemoveRitual.info=未有介绍.
-ritual.BloodMagic.armourEvolveRitual.info=未有介绍.
+
+
 ritual.BloodMagic.animalGrowthRitual.info=加快其范围内的幼年动物的生长速度.
 ritual.BloodMagic.forsakenSoulRitual.info=对其伤害范围内的生物造成伤害, 当生物死亡时, 其晶体范围内的恶魔晶簇将生长.
 ritual.BloodMagic.crystalHarvestRitual.info=破坏范围内的恶魔意志晶簇, 掉落物丢于晶簇顶部.
@@ -523,6 +524,7 @@ chat.BloodMagic.ritual.activate=一股能量流经这个仪式!
 chat.BloodMagic.ritual.notValid=这些仪式石似乎有些摆放不得当...
 
 chat.BloodMagic.livingArmour.upgrade.poisonRemove=你感到已经好多了!
+chat.BloodMagic.livingArmour.upgrade.fireRemove=&6火焰抵抗随一股清凉感附着于你.
 chat.BloodMagic.livingArmour.upgrade.grimReaper=&6朦胧中一股能量使你脱离死亡边缘!
 chat.BloodMagic.livingArmour.newUpgrade=&4强化完成!
 
@@ -542,8 +544,8 @@ chat.BloodMagic.altar.nextTier=下一层级的血之祭坛缺失 %s 在 %s.
 
 # sekrit
 
-secret.BloodMagic.bread.bloody=&r&cBloody Bread
-secret.BloodMagic.bread.bloody.desc=仅为 &o极端的 &r&7紧急情况.
+
+
 
 # Commands
 commands.error.arg.invalid=无效参数
