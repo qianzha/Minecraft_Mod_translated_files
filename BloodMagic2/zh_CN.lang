@@ -83,6 +83,7 @@ item.BloodMagic.baseComponent.reagentHaste.name=急速试剂
 item.BloodMagic.baseComponent.reagentBridge.name=影桥试剂
 item.BloodMagic.baseComponent.reagentCompression.name=压挤试剂
 item.BloodMagic.baseComponent.reagentSeverance.name=隔绝试剂
+item.BloodMagic.baseComponent.reagentHolding.name=集持试剂
 
 item.BloodMagic.baseComponent.reagentTeleposition.name=传送试剂
 item.BloodMagic.baseComponent.reagentTransposition.name=移位试剂
@@ -169,7 +170,7 @@ item.BloodMagic.itemFilter.modItems.name=Mod物品筛选器
 item.BloodMagic.itemFilter.oreDict.name=矿物物品筛选器
 
 item.BloodMagic.experienceTome.name=经验手册
-item.BloodMagic.sanguineBook.name=碍视之书
+item.BloodMagic.sanguineBook.name=指示之书
 
 item.BloodMagic.livingPointUpgrade.draftAngelus.name=祷告之始
 
