@@ -83,6 +83,7 @@ item.BloodMagic.baseComponent.reagentHaste.name=Haste Reagent
 item.BloodMagic.baseComponent.reagentBridge.name=Phantom Bridge Reagent
 item.BloodMagic.baseComponent.reagentCompression.name=Compression Reagent
 item.BloodMagic.baseComponent.reagentSeverance.name=Severance Reagent
+item.BloodMagic.baseComponent.reagentHolding.name=Holding Reagent
 
 item.BloodMagic.baseComponent.reagentTeleposition.name=Teleposition Reagent
 item.BloodMagic.baseComponent.reagentTransposition.name=Transposition Reagent
@@ -169,7 +170,7 @@ item.BloodMagic.itemFilter.modItems.name=Mod Item Filter
 item.BloodMagic.itemFilter.oreDict.name=Ore Dictionary Item Filter
 
 item.BloodMagic.experienceTome.name=Tome of Peritia
-item.BloodMagic.sanguineBook.name=Book of Sanguine
+item.BloodMagic.sanguineBook.name=Inspectoris Scandalum
 
 item.BloodMagic.livingPointUpgrade.draftAngelus.name=Draft of Angelus
 
@@ -302,6 +303,7 @@ tooltip.BloodMagic.bound.axe.desc=&oDemonic deforestation
 tooltip.BloodMagic.bound.shovel.desc=&oScrubs floors clean of dirt
 
 tooltip.BloodMagic.sacrificialDagger.desc=Just a prick of the finger will suffice...
+tooltip.BloodMagic.sacrificialDagger.creative=Right click an altar while sneaking to fill it
 tooltip.BloodMagic.slate.desc=Infused stone inside of a Blood Altar
 tooltip.BloodMagic.inscriber.desc=The writing is on the wall...
 
@@ -345,6 +347,7 @@ tooltip.BloodMagic.telepositionFocus.demonic=Used to move blocks in the world
 tooltip.BloodMagic.livingArmour.upgrade.speed=Quick Feet
 tooltip.BloodMagic.livingArmour.upgrade.digging=Dwarven Might
 tooltip.BloodMagic.livingArmour.upgrade.poisonResist=Poison Resistance
+tooltip.BloodMagic.livingArmour.upgrade.fireResist=Gift of Ignis
 tooltip.BloodMagic.livingArmour.upgrade.selfSacrifice=Tough Palms
 tooltip.BloodMagic.livingArmour.upgrade.knockback=Body Builder
 tooltip.BloodMagic.livingArmour.upgrade.physicalProtect=Tough Skin
@@ -363,6 +366,8 @@ tooltip.BloodMagic.livingArmour.upgrade.graveDigger=Grave Digger
 tooltip.BloodMagic.livingArmour.upgrade.sprintAttack=Charging Strike
 tooltip.BloodMagic.livingArmour.upgrade.criticalStrike=True Strike
 tooltip.BloodMagic.livingArmour.upgrade.elytra=Elytra
+tooltip.BloodMagic.livingArmour.upgrade.slowness=Limp Leg
+tooltip.BloodMagic.livingArmour.upgrade.crippledArm=Crippled Arm
 tooltip.BloodMagic.livingArmour.upgrade.level=%s (Level %d)
 tooltip.BloodMagic.livingArmour.upgrade.points=&6Upgrade points: %s / %s
 
@@ -523,6 +528,7 @@ chat.BloodMagic.ritual.activate=A rush of energy flows through the ritual!
 chat.BloodMagic.ritual.notValid=You feel that these runes are not configured correctly...
 
 chat.BloodMagic.livingArmour.upgrade.poisonRemove=You are starting to feel better already!
+chat.BloodMagic.livingArmour.upgrade.fireRemove=&6A cool feeling envelopes you as the burning subsides.
 chat.BloodMagic.livingArmour.upgrade.grimReaper=&6A shadowy force pulls you from the brink of death!
 chat.BloodMagic.livingArmour.newUpgrade=&4Upgrade acquired!
 
