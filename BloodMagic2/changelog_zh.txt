@@ -1,4 +1,15 @@
 ------------------------------------------------------
+Version 2.0.3-51
+------------------------------------------------------
+- 添加恶魔意志灵域测量器，用于精确了解灵域中的意志.
+- 添加仪式使用恶魔意志的特殊能力.
+
+------------------------------------------------------
+Version 2.0.2-50
+------------------------------------------------------
+- Fixed bad NPE when using the WoS. (Well, I guess all NPEs are technically bad, but I guess it depends on your perspective. That said, I don't think a changelog is the best place for a theoretical discussion about the rights and wrongs of errors, so I will stop now.)
+
+------------------------------------------------------
 Version 2.0.2-49
 ------------------------------------------------------
 - 所有炼金矩阵合成的工作仍处早期且会有变更! ^.^ 由奥术粉末创造并放入第一物品+第二物品.
