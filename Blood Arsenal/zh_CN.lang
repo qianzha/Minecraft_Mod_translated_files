@@ -39,7 +39,7 @@ item.BloodArsenal.gemSelfSacrifice.name=牺牲宝石
 item.BloodArsenal.gemTartaric.name=塔尔塔意志宝石
 
 item.BloodArsenal.sacrificeAmulet.name=献祭项链
-item.BloodArsenal.selfSacrificeAmulet.name=牺牲宝石
+item.BloodArsenal.selfSacrificeAmulet.name=牺牲项链
 item.BloodArsenal.soulPendant.petty.name=[微小]灵魂垂饰
 item.BloodArsenal.soulPendant.lesser.name=[细块]灵魂垂饰
 item.BloodArsenal.soulPendant.common.name=[普通]灵魂垂饰
@@ -97,11 +97,11 @@ chat.BloodArsenal.setLevel=设置等级至: %d
 chat.BloodArsenal.tooWeak=你感到有点过于弱小无法完成...
 
 # Tinker's
-modifier.serrated.name=锯齿
+modifier.serrated.name=Serrated
 modifier.serrated.desc=§o切砍!§r\n使目标流血!
 modifier.serrated.extra=Severity: %s
 
-modifier.living.name=生命
+modifier.living.name=Living
 modifier.living.desc=§4重生!§r\n通过使用者的灵魂网络治愈它自身
 
 material.bloodinfusedwood.name=注血木
