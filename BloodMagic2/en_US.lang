@@ -474,6 +474,10 @@ ritual.BloodMagic.regenerationRitual.info=Casts regeneration on entities within 
 ritual.BloodMagic.harvestRitual.info=Harvests plants within its range, dropping the results on the ground.
 ritual.BloodMagic.magneticRitual.info=Pulls up ores from the ground and puts them into its placement range.
 ritual.BloodMagic.crushingRitual.info=Breaks blocks within its crushing range and places the items into the linked chest.
+ritual.BloodMagic.crushingRitual.destructive.info=(Destructive) Blocks are broken down forcefuly: all blocks broken are affected by Fortune III.
+ritual.BloodMagic.crushingRitual.steadfast.info=(Steadfast) Causes all blocks that are broken to be picked up with silk touch. Overrides Fortune where applicable.
+ritual.BloodMagic.crushingRitual.corrosive.info=(Corrosive) All blocks are broken to be processed with a form of cutting fluid. Overrides Silk Touch where applicable.
+
 ritual.BloodMagic.fullStomachRitual.info=Takes food from the linked chest and fills the player's saturation with it.
 ritual.BloodMagic.interdictionRitual.info=Pushes all mobs within its area away from the master ritual stone.
 ritual.BloodMagic.containmentRitual.info=Pulls all mobs within its area towards the master ritual stone.
@@ -486,7 +490,6 @@ ritual.BloodMagic.armourEvolveRitual.info=Undocumented.
 ritual.BloodMagic.animalGrowthRitual.info=Increases the maturity rate of baby animals within its range.
 ritual.BloodMagic.forsakenSoulRitual.info=Damages mobs within its damage range and when the mob dies a demon crystal within its crystal range will be grown.
 ritual.BloodMagic.crystalHarvestRitual.info=Breaks Demon Will crystal clusters within its range, dropping the results on top of the crystals.
-
 ritual.BloodMagic.placerRitual.info=Grabs blocks that are inside of the connected inventory and places them into the world.
 ritual.BloodMagic.fellingRitual.info=A standard tree-cutting machine, this ritual will cut down all trees and leaves within its area and collect the drops.
 ritual.BloodMagic.pumpRitual.info=Looks around the world and grabs fluids from the defined area. Will only remove and put the fluid into the connected tank if the tank has at least a bucket's worth of the same fluid.
