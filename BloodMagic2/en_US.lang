@@ -250,6 +250,8 @@ tile.BloodMagic.demonCrystalDESTRUCTIVE.name=Destructive Will Crystal Cluster
 tile.BloodMagic.demonCrystalVENGEFUL.name=Vengeful Will Crystal Cluster
 tile.BloodMagic.demonCrystalSTEADFAST.name=Steadfast Will Crystal Cluster
 
+tile.BloodMagic.mimic.nohitbox.name=Ethereal Mimic Block
+
 # Fluids
 fluid.lifeEssence=Life Essence
 
@@ -580,6 +582,9 @@ chat.BloodMagic.altar.comp.crystal=an unimplemented item
 chat.BloodMagic.altar.comp.notair=a solid block
 
 chat.BloodMagic.altar.nextTier=The next tier of blood altar is missing %s at %s.
+
+# entity
+entity.BloodMagic.SentientSpecter.name=Sentient Specter
 
 # sekrit
 
