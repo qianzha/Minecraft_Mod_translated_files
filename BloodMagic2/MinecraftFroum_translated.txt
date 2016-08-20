@@ -1,0 +1,379 @@
+==================
+= 入门指南
+A quick reference to point you in the right direction.
+
+	[
+	这一部分将告诉你如何开始这个mod, 只有一点简要的内容.每个方块和物品以及相关的合成配方的详细说明可以在后边相关的章节查看. 
+	This section talks about how to start the mod. The main details of each of the blocks and items, along with some of the recipes, can be found in their respective sections. Think of this section as a quick and dirty way to start the mod, but it won't give you the nitty gritty details of the inner workings.
+
+	这个mod的旧版中, 开始你只要建造一个血之祭坛和一把牺牲匕首, 随后便是一个气血宝珠. 而现在有所不同, 你得先制造一个原始投网, 然后将其抛向怪物. 这有几率会使怪物获得一个debuff, 丢到你能看到出现白色的颗粒效果. 随后杀了它, 便会掉落一个"恶魔意志"物品 - 你会需要两个, 其中之一需要含有至少 1 以上的"意志质量"(物品标签中查看)
+	In previous versions of the mod, you would start by directly crafting a Blood Altar and a sacrificial knife, then go straight into creating a blood orb. This is no longer the case. To start the mod, you will need to craft a rudimentary snare, and throw it at a monster. When you throw the snare, it has a chance to inflict a debuff on the monster, so throw snares until you see white particle effects.
+
+	When this occurs, kill the monster. It will drop a piece of "Demonic Will" - you will need about two of these, with one of them having a "Will Quality" (seen on the tooltip of the item) of at least 1.
+
+	这时你可以用一个恶魔意志物品建造一个血之祭坛 - 建议使用有最少意志质量的一个. 然后可以顺便制造一把牺牲匕首. 更多细节请查看"血之祭坛"章节.
+	At this point you are able to craft a Blood Altar using one of the Demonic Will - it is recommended you use the one with the lowest Will quality. You can also craft your Sacrificial Dagger, for use in self-sacrificing. More details about the blood altar and sacrifices can be found in the "Blood Altar" section.
+
+	你需要用一些石头, 铁, 和金锭建造一个狱火熔炉, 用于几乎所有有关"恶魔意志"的合成. 恶魔意志, 或者简单地叫做"意志", 可作为一种能量来源. 这就是说你会需要到某种方式来使用, 储存它并获取更多, 像是通过狱火熔炉. 再次, 详细内容请查询相关章节.
+	You will need to create a Hellfire Forge out of some stone, iron, and gold. This block will be used for almost all recipes that involve this "Demonic Will." Demonic Will, or shortened simply as "Will," is used as an energy source. As such, you will need a way to use it, store it, and get more of it, and this block will do just that. Once again, see the relevant sections for finer details.
+
+	在正确的物品槽中放置恶魔意志来制造两个微小的塔尔塔宝石(使用JEI查询合成配方). 这个过程会需要到恶魔意志中的一意志质量. 之后使用其中一个塔尔塔宝石来制造一把"感知之剑". 用它杀死生物将获得更多的恶魔意志. 另外当你背包中放有一个塔尔塔宝石时, 捡起的恶魔意志将储入其中而不会有该物品. 当然塔尔塔宝石是有容量上限的, 而微小的塔尔塔宝石最多能储存64意志质量.
+	Craft two petty tartaric gems (use JEI for the recipe) by placing the Demonic Will you still have in the right-most slot. It will use up one Will Quality from the Will. Then, take one of these petty tartaric gems and use it to craft a "Sentient Sword." When you kill things with this sword, you will get more Demonic Will when you kill things. What is more, when you pick up a piece of Demonic Will from the ground while you have a tartaric gem in your inventory, the Will will go into that gem, deleting the Demonic Will item. Naturally, there is a maximum capacity of the tartaric gems, which for the petty version is 64. 
+
+	你背包中的塔尔塔宝石所含意志越多, 感知之剑也会更强, 使得掉落更多的意志. 这会帮助你获取足够的意志来制造更有趣的东西!
+	One quick fact, which is explained further later on: the more Will you have in your tartaric gems inside of your inventory, the stronger your Sentient Sword is as well as the more Will is dropped by entities. This will help you to gather enough Will in order to craft some of the more interesting items in the game!
+
+	--------------------------------------------------
+
+	现在你得对血之祭坛的使用有一定了解(简略的看一遍相关章节 - 不我是说认真的看一遍), 你会需要获取更多血之祭坛的信息, 像是制造一个占卜印记. 正如查询JEI所见, 这个印记需要使用炼金矩阵以及一个空白石板和红石制成. 而空白石板需要通过在祭坛上放置一块石头以及1000LP消耗制成(使用牺牲匕首消耗 5 颗心的生命值). 一颗心的生命值在未加强过的祭坛中相当于200LP. 通过狱火熔炉制造一些"奥术粉末", 手持对着地面右键将绘制出一个"炼金矩阵". 对着矩阵先后手持红石, 空白石板右键. 矩阵将创造出一个占卜印记.
+	So now that you know how to use the Blood Altar (by looking at its section briefly - no, seriously, look at it), you will want to be able to get some more information about the Blood Altar. To do this, you will want to craft the Divination Sigil. If you look using JEI, you can see that to craft this sigil you need a Blank Slate and a piece of redstone dust using an "Alchemy Array." The Blank Slate can be crafted using a piece of smooth stone in a blood altar with 1000LP worth (5 hearts using the sacrificial dagger). 1 heart in the blood altar = 200LP without upgrades. An Alchemy Array can be created by crafting some "Arcane Ash" using the Hellfire Forge and right clicking on the ground with the ash. This will create a circle on the ground. If you then right click on this circle with first the redstone dust and then the blank slate, the Alchemy Array will create a Divination Sigil. This is how Alchemy Array crafting works.
+
+	手持占卜印记对着祭坛右键, 可了解祭坛中所含LP的数量, 如果你还装有WAILA,手持印记时则可直接在WAILA的信息框中查看.
+	Right clicking on the altar with the divination sigil will then tell you how much LP you have in the altar, and if you have WAILA installed it will tell you the LP in the WAILA box while you hold the sigil.
+
+	随后你会想要制造一个虚弱气血宝珠, 这便要在祭坛中放置一个钻石并提供2000LP. 气血宝珠可用于存储LP, 供你以及你那些消耗LP的物品来使用. 更多相关的信息请查看"灵魂网络"章节.
+	You will then want to craft a Weak Blood Orb using a diamond and 2000LP in the altar. This can store LP for you and your items that use LP. For more information on this, see the section "Soul Network."
+
+	在这之后, 随着发展升级你的血之祭坛层级, 制造新的血宝珠, 制造更好的塔尔塔宝石来存储更多邪灵魂魄吧. 如果想知道更多信息, 请查看相关部分, 或是更新日志.
+	So with this basic knowledge, you will want to upgrade your blood altar each tier, and craft a new blood orb whenever you can. Likewise, you will want to continually get better and better Tartaric gems to get more demonic will. If you want to know more information, make sure to look at the sections that are relevant. Either that, or look at an updated spotlight. 		
+	]
+
+=================
+= 血之祭坛
+石之所砌，万术之基
+Construction and basic mechanics
+
+	[
+	(Blood Altar Recipe)
+	(Angled T1 picture)
+
+	血之祭坛是本模组中中枢内容, 用于制作像是气血宝珠之类的在模组中的重要物品. 通过手持物品右击祭坛可将其放置于祭坛上, 空手右击则能将物品取下. 同时祭坛也能像其他容器一样, 漏斗或是其他手段也能与其互动.
+	The Blood Altar is the main center-piece of the mod, used to craft major components as well as Blood Orbs used in the mod. By right clicking on the block with an item in-hand you are able to place the item into its inventory, which can be removed by right clicking with an empty hand. Because it is an inventory, hoppers and other means can interact with it.
+
+	顾名思义, 血之祭坛即能运用血液将物品转变为其他形式. 使用牺牲匕首可以献上你自己的一点生命值, 将你一点血液和生命源质滴至于祭坛的血槽中. 默认情况下, 一颗心(2 hp)相当于200生命点数, 或是说LP(Life Points).
+	As the name implies, the Blood Altar uses blood to transmute one item into another. By using a Sacrificial Dagger on yourself, you are able to put some of your blood and life essence into the altar's basin, sacrificing some of your health. One heart (2 hp) equals 200 Life Points, or LP, by default. 
+
+	祭坛自带有 10,000LP 的基础容量, 其内部还存在两个容量为主血槽 10% 的液体缓冲槽 - 运输进祭坛的LP将通过输入槽到主血槽, 而后主血槽的LP将缓慢流入输出槽, 以便从祭坛中引出.
+	The altar has a base capacity of 10,000LP, and it has two internal fluid buffers with a capacity of 10% that of the main tank - LP that is pumped into the altar will go from the input buffer into the main tank, and then LP from the main tank will slowly transfer into the output tank, allowing it to be pumped out of the altar.
+
+	祭坛的操作相当简单. 向祭坛填充血液的可行方式 - 这个阶段暂时只有用牺牲匕首献上你自己的血液, 但随着你的发展会有更多. 当祭坛中有足够的LP, 右击祭坛放入你想处理的物品. 你会看到该物品开始产生红色颗粒效果, 表明物品的转变正在执行. 如果有灰色颗粒效果产生, 这意味着祭坛已经耗光其所储LP, 同时转变的进度正在消散 - 这时你只能选择供更多LP使祭坛继续工作, 或是失去当前转变的所有进度. 当物品停止散发红色颗粒时, 处理过程即结束你便得到了个新物品! Congrats!
+	The operation of the altar is simple enough. Fill up the altar with blood using the available methods - at this stage of the mod, you are only able to use the Sacrificial Dagger to fill the altar with your own blood, but more methods will become available when you advance in the mod. Once you have enough LP in the altar, right click the altar to put the item you want to craft into it. You will start to see red particles emanating from the item, indicating that it is currently being transmuted into a new item. If gray particles start to smoke off of the item, it means that the altar is out of LP and the item is actually loosing progress - when this happens, you either have to add more LP to the altar to continue crafting, or simply loose all the progress on the item. Once the item stops emitting red particles, the crafting process is completed and you have a new item! Congrats!
+
+	把已绑定的血宝珠放置于祭坛上, 可通过祭坛来补充你的灵魂网络至该宝珠的最大容量. 更多相关信息可以在灵魂网络部分查询.
+	You can also place a bound Blood Orb into the altar to fill up your Soul Network, up to the orb's maximum. More info about this can be found in the Soul Network section.
+
+	如你所见, 最初的祭坛是相当弱的, 仅为最低功能的 1层级(tier 1/T1) 祭坛. 你可以在这之上制造些东西, 但这没有什么太花俏的东西.
+	As you can see, the Blood Altar starts off relatively weak, simply a tier 1 (T1) altar with minimal capabilities. You can craft a few things with it, however you won't be able to do anything too fancy. 
+	]
+	[- 祭坛的层级]
+	[- 气血符文]
+
+==============
+= 灵魂网络
+轻飘之贮物，非为赢弱之心
+Ethereal storage, not for the faint of heart!
+
+=============
+= 香炉祭坛
+
+=============
+= 恶魔意志
+你需要知道的所有获取恶魔意志知识
+	[
+	- 原始投网
+	{
+	(picture_recipe_Snare)
+	原始投网 是发展本模组最开始需要到的东西. 这个简易的装置可以丢向敌对生物, 以诱捕一些不吉之灵附身于其身上. 当投中生物时, 有几率(大约 25%)使其获得称为"Soul Snare", 并随之产生白色颗粒效果 - 而这时将其杀害将获得名为"恶魔意志"的物品, 其中存在着0至5的"意志质量". 而当你准备开始时首先便要获取至少两个且其中之一至少有超过 1 质量的恶魔意志.
+	The Rudimentary Snare is how you initially get into the mod. It is a simple device that can be thrown at a hostile mob to attempt to ensnare some unpleasant things attached to it. If thrown at a mob, there will be a chance (about 25%) for the mob to be inflicted with a debuff called "Soul Snare," and will start to emit white swirling particles - when these particles appear, you can then kill the mob to get an item called "Demonic Will." This item will have a "Will Quality" between 0 and 5, so when starting off make sure to get at least two, one of them with a quality of more than 1. 
+
+	在你第一次使用完这个物品后, 你可能不会再怎么需要到它. 更多使用需求在未来版本可能会有, 但就目前而言这仅仅在开始会需要到.
+	After you use it this first time, you probably aren't going to use it much afterwards. More uses for this will probably happen in the future, but for now it is simply a way to get started in the mod.
+	}
+	
+	- 邪灵魂魄
+	{
+	(picture_DemonicWill) 
+	以流传于血魔法的学识所述, 活于世间怀有敌意的怪物以某种形式的邪灵/能量的存在, 聚集墓地下的亡灵于袭击生灵. 因这些亡灵并没有实质的灵魂, 他们的感知无法赋予行动, 而这"邪灵"则替于这股欲于行动的痕迹. 而仅传于血魔法师间的某种技巧则可在杀死怪物时, 将这邪灵意念之魂移出其身.
+	In the lore of Blood Magic, there is some form of demonic entity/energy that animates hostile monsters, raising skeletons from the grave to then attack the living. Because these skeletons don't actually have a soul to power their sentience, the demonic entity instead imprints its will to cause these creatures to move. It is this imprint of Demonic Will that is removed from a monster when slain by a blood mage that gives rise to some of the more esoteric abilities of the mod. 
+
+	邪灵魂魄在模组中用于为许多物品与能力供能. 不同以前仅仅从血之祭坛获取生命源质于运用印记, 如今血魔法师将需要狩猎怪物收集魂魄. 魂魄的主要用途是制造物品, 同时它也有些许有攻击性的用途.
+	Demonic Will powers a lot of the items and abilities of the mod. Instead of just gathering LP from a Blood Altar to power your sigils, a blood mage now needs to go hunting monsters to gather Will. The main usage of Will is in crafting things, but there are a few offensive uses for this material.
+	}
+	
+	- 狱火熔炉
+	{
+	(picture_HellfireForge)
+	狱火熔炉是本模组中一开始便需要建造的设备之一, 用于制造几乎所有邪灵魂魄相关的物品, 因此你也将在这上边花上不少时间. 熔炉可消耗魂魄制作更强大的塔尔塔宝石, 感知装备, 以及用于路由项目的东西.
+	The Hellfire Forge is one of the first machines that you will want to create in the mod. It is responsible for crafting almost everything involving Demonic Will, and thus you will be spending a lot of time with this thing. The Forge uses Will to craft stronger Tartaric Gems, sentient equipment, and even the stuff used for routing items. 
+	
+	(picture_Gui_HellfireForge)
+	熔炉界面的左边四格摆放材料, 右边一格摆放邪灵魂魄或塔尔塔宝石, 矩阵中间一格则是获取合成的物品, 一旁的进度条表示合成的进度(所有合成都需花费 5 秒). 其合成方式皆为无序合成, 仅需将所有材料放入并供给合成所需的魂魄, 熔炉便会开始运作.
+	The forge has four input slots on the left-hand side, a slot on the right for either a Demonic Will or a Tartaric Gem, an output slot at the center of the circle, and a progress bar to... indicate the progress of the crafting (all recipes take 5 seconds). When you place the four items in the forge in any order (because it is a shapeless recipe) and put in whatever you are using to store your Will, the forge will start to use the Will to craft the resultant item. 
+	
+	(picture_JEI_HFFRecipe)
+	不过, 每个合成都有两个半隐藏的需求值: 一是能够使合成开始的魂魄量的最小值, 二是合成中将消耗的魂魄数量. 在JEI (Just Enough Items)的合成查询中, 将鼠标悬停在合成配方的箭头上, 即可查询该合成的最小值和消耗值. 即要使合成开始, 你至少需要一个储有最小值量魂魄的塔尔塔宝石, 而完成时它只会消耗消耗值数量的魂魄. 且最小值的量总是大于等于消耗值的量.
+	Keep in mind, though, that each and every recipe has two semi-hidden values: a minimum amount of Will required to be able to craft the item, and a value to indicate how much Will is consumed in this recipe. When you look up a recipe using JEI (Just Enough Items) and hover over the arrow in the recipe, it will give you a Minimum and a Drained value. For a recipe to even be craftable, you need a Tartaric Gem with at least the Minimum Will value. When the crafting is complete, though, the Forge will drain the Drained value. This is so that there are recipes that are gated behind having a lot of Will, but only use a little of it. And yes, the Minimum amount of Will will always be greater than or equal to the Drained value.
+
+	当狱火熔炉位于一个含魂之灵场的区块时(后边会解释), 它将以每刻一魂魄(1tick= 0.05s)的速度, 为放置其中的未满宝石填充. 这在较多高消耗合成中会有帮助, 毕竟没有其他重新放置或是填充宝石的方法.
+	The Hellfire Forge will also fill up its contained Tartaric Gem if it is in a chunk that contains Demon Aura (explained later). It will fill up the gem in its slot with one Will per tick, and only if the gem is able to hold onto that Will. This can be helpful if you have a lot of Forges crafting large recipes, since there is no real way to replace the gem itself, or even fill it.
+	}
+	
+	- 塔尔塔宝石
+	{
+	(picture_recipe_TGem)
+	塔尔塔宝石(Tartaric Gems, 意为来自恶魔领域 塔尔塔洛斯/Tartarus 的宝石)用于存储大数额的魂魄. 目前有微小, 细块, 普通, 较大, 精致五种规格, 其储量随之递增. 背包中持有塔尔塔宝石时, 捡起的邪灵之魂将储入宝石之中. 若是背包中持有塔尔塔宝石且所有塔尔塔宝石皆满时, 捡起的魂魄将直接消失, 以避免背包被占满.
+	Tartaric Gems (translated: gems from the demon realm, Tartarus) are used to store large amounts of Will. There are currently five different levels of tartaric gems: Petty, Lesser, Common, Greater, and Grand, which store subsequently more will. When you have a tartaric gem in your inventory and pick up a piece of Demonic Will, the Will will be absorbed and stored into the gem. If you have gems in your inventory and all of your gems are full, the Will item will instead just be voided to avoid clogging up your inventory. 
+
+	手持宝石对着空气右键, 可以将手中宝石存有其最大容量10%的魂魄转存到背包中的其他宝石. 即当制作出更高一级的宝石, 可以用这个方法把原先宝石中的魂魄转入新的宝石.
+	What is more, you are able to right click in the air with the gem to transfer up to 10% of the max capacity of the gem into other gems in your inventory. So if you have a petty tartaric gem and you just created a lesser gem, you can just right click with the petty gem to fill up your new lesser gem.
+
+	拥有更多的魂魄, 你的感知系物品也会随之更强. 而在此拥有一个塔尔塔宝石便是非常有必要的了. 感知系物品由不同魂魄带来的强化将在相关章节提及.
+	You will want to have one of these on you whenever you use Sentient equipment, because all Sentient items get stronger the more Will you have in your inventory. The various benefits of each of these will be discussed in their respective sections.
+	}
+	
+	- 感知之剑
+	{
+	(picture_recipe_SenSword)
+	(picture_SenSword_effect)
+	感知之剑乃是件非凡的武器. 所持塔尔塔宝石储有更多邪灵之魂, 感知之剑便随之更强大. 最初制造出来时它的攻击力也需并不可观 - 然而只要手持右键或者攻击, 它将检测你背包中所持魂魄数量, 依此提升其攻击力. 获取更多魂魄, 攻击时感知之剑便会获取更多力量.
+	The Sentient Sword is a marvelous weapon that gets more powerful the more Demonic Will you have in your tartaric gems. When initially crafted, you will see that it does not have much damage at all - however, if you right click with the sword or attack something with it, it will check your inventory for how much Will you have and then increase its damage based on it. If you gain more Will while you have this weapon, your sword will automatically power itself up when you attack things. 
+
+	感知之剑的主要能力大概是, 用它消灭怪物时(如果是攻击型生物), 无需原始投网便会掉落邪灵之魂. 掉落数量以该生物的最大生命值成比例而定. 同时掉落的魂魄数量, 也会随着感知之剑力量的提升而显著提升. 即你的塔尔塔宝石储有更多魂魄, 你消灭的怪物也将掉落更多魂魄.
+	Probably the major benefit of this weapon is that when you kill things with it the attacked mob (if a hostile mob) will drop more Demonic Will without the need of using Rudimentary Snares. The amount dropped is proportional to the max health of the mob. The Will dropped is also increased dramatically when the power of the sword increases, so if you have more Will in your contained tartaric gems the mobs that you kill will drop more Will.
+
+	另外, 感知之剑支持附魔, 且"抢夺"附魔效果可以提升魂魄掉落率.
+	Also, pro tip: Looting enchantments affect how much Will is dropped. Oh, and the sword is enchantable!
+
+	感知之剑仅可通过于铁砧上用另一把感知之剑修复.
+	You can only repair the Sentient Sword using an anvil plus another Sentient Sword.
+	}
+		{-Different Variants
+		(picture_SenSword_Kinds)
+		手持感知之剑右击, 取决于持有的最多一类魂魄类型, 感知之剑将获得不同能力效果.
+		Depending on how which Demon Will you have the most of when you right click the sword, the sword will take on different abilities.
+
+		腐蚀之剑将造成目标受到凋零效果, 储有更多腐蚀魂魄将有跟长的时效与更强的效果.
+		The Corrosive sword inflicts the targed with Wither, dealing a constant DoT that becomes longer and more powerful the more Corrosive Will you have.
+
+		破坏之剑有更高的攻击力, 但速度更慢. 砍击范围更集中于一线, 但砍击效果更佳.(more in-line with an axe than anything, but still provides the useful ability of the sword's slash.)
+		The Destructive sword is more damaging, but slower. This is more in-line with an axe than anything, but still provides the useful ability of the sword's slash.
+
+		复仇之剑有更快的攻击速度, 攻击力稍低, 手持时提供"速度"增益效果. 拿上它冲上战场如同魔鬼般战斗!
+		The Vengeful sword has a faster attack speed and provides a speed buff when held, however it does a bit less damage. Hold it to charge into battle like a demon!
+
+		坚定之剑削弱了攻击力, 但当你杀死生物时, 你将暂时获取吸收而得的生命, 以被杀生物的最高生命值成比例而定. 确保自己存活而非为屠杀效率.
+		The Steadfast sword has reduced damage, however when you kill a mob with it you will receive temporary absorption hearts proportional to the max health of the mob killed. Helpful for keeping yourself alive, but not so much for killing things as efficiently.}
+	
+	- 感知之弓
+	
+	- 感知盔甲
+	{
+	(picture_recipe_SenArmourGem)
+	(picture_SenArmour)
+	感知盔甲无法像通常那样合成, 而是需要制造一个感知盔甲宝石. 储有至少30意识量的魂魄, 手持着宝石右键. 原先所穿的盔甲便会由感知盔甲替之 (或是无装备时直接装备). 再次手持盔甲宝石右键, 感知盔甲将褪去而恢复原先所穿的盔甲.
+	The Sentient Armour is not craftable in the traditional sense. Instead, you need to craft a Sentient Armour Gem and right click with it while you have at least 30 Will. This will replace your armour with Sentient Armour (or just equip sentient armour when you have no armour on). If you right click the gem again, it will remove the sentient armour and equip your old armour again.
+
+	储有更多魂魄感知盔甲便会更强, 被攻击时则会消耗魂魄. 而当魂魄耗尽, 盔甲也将复原.
+	This armour becomes more powerful the more Will you have, and will drain Will from your contained gems when you are attacked. If, however, you run out of Will your armour will revert back to its original form.
+	}
+		{- Different Variants
+		(picture_SenArmour_Kinds)
+		感知盔甲有四种不同的特殊类型, 取决于激活时所储最多的魂魄类型. 且都有不同的能力.
+		There are four unique styles of the Sentient Armour, depending on which type of Demon Will you have the most of in your inventory at the time of activation, and as you can probably tell they all have different abilities.
+
+		腐蚀使你免疫"中毒"与"凋零", 以它对付女巫或是洞穴蜘蛛会是个好选择.
+		Corrosive makes you immune to poison and wither, making it a good armour for when you are fighting witches or cave spiders.
+
+		破坏提升攻击力而降低攻击速度, 有助于对付强劲的怪物.
+		Destructive adds to your attack power while reducing your attack speed, which is helpful for those more powerful monsters.
+
+		复仇提升移动速度且提供更好的防御.
+		Vengeful increases your movement speed while still offering good protection.
+
+		坚定提升防御, 减弱大量击退效果. 不提供任何像是"生命恢复"或"速度"的效果.
+		Steadfast increases your defence, and imparts a large amount of knockback resistance. This is the tanky armour, but doesn't provide anything like health or movement speed buffs.
+	}
+	
+	- 邪灵之魂灵域
+	{
+	邪灵魂魄乃是邪灵之意念缥缈之体现, 以使怪物重获生气又或着控制怪物的形式普遍存在于"自然"之中. 目前在模组中, 利用这个能量可获取更多力量, 将其注入工具可使得更强. 而这种能量以其他形式作为获取来源, 若是受限于一种特殊形式下(像是储于塔尔塔宝石), 能做的仅限于此. 因而如果我们能找到一种将邪灵魂魄释放于大气中的方法, 或许能发现更多进一步的用途.
+	Demonic Will is the ethereal manifestation of the will of demons, which normally is found in "nature" through reanimated or controlled monsters. So far in the mod, we have harnessed this power to gain more strength, injecting it into our tools to make us more powerful. However with any other type of power source, we can only do so much with it when it is confined to a particular form (in this case, our tartaric gems). Thus, if we were to find a way to release this Will into the atmosphere, we may be able to find more advanced uses.
+
+	这既是"邪灵之魂灵场(Demon Will Aura)", 或是说魂之灵场(Demon Aura). 这是在被给予范围邪灵魂魄数量的计量制度. 就意义而言同神秘学的灵气(aura), 这是以区块为基础的灵场(aura), 持有一定能量可供于其他事物. 然而, 一旦释放出, 没有外力的影响, 魂之灵场无法于自己的区块蔓延开, 尽管灵场拥有自己的意识, 它更倾向于待在一个地方, 找寻可附身之物. 若不加以干涉, 它最终将再次找寻宿主重新占据: 但由于这仍是个全新的系统, 很多计划仍未实施.
+	This is what is called "Demon Will Aura," or Demon Aura. It is a measure of how much Demonic Will is released into the air in a given region. Think of it like Thaumcraft's aura, in the sense that it is a chunk-based aura that holds an energy that can be used for other things. However, Demon Aura is not able to spread from its own chunk without outside influences - once released, although this aura has a mind of its own (it's called "Will" for a reason), it tends to stay in the same region, seeking out things that it can attach to. If left alone, it will eventually try to seek out a host to inhabit again: but because this is a relatively new system, a lot of the stuff planned has yet to be implemented.
+	}
+		{- 邪灵坩埚 - Demon Crucible
+		(picture_DemonCrucible)
+		邪灵坩埚可以将塔尔塔宝石所储的魂魄释出, 形成魂之灵场. 通过右键将塔尔塔宝石放置其中, 宝石中的魂魄会缓慢消耗而释放于大气中.
+		The Demon Crucible is a block that is required to convert the Will contained inside of tartaric gems into Demon Aura. By right clicking the Crucible and placing a tartaric gem inside it, the Will in the gem will slowly be drained and released into the air.
+
+		默认情况下, 坩埚会以每刻1意识的速度, 注入100意识的一类魂魄于魂之灵场. 以后将可以通过升级坩埚, 来提升坩埚的速度以及魂之灵场的最大意识量. 仅有这个方块并不能起到多少用处, 联合其他的方块则其帮助便不可小视.
+		By default, the crucible call only inject up to 100 Will of a given type into the aura at a rate of 1 Will per tick. Later on, you will be able to place upgrades into the crucible to increase the rate as well as the max amount of Will in the Aura. Alone, this block won't be able to do much, but combined with other blocks it can be very useful.
+
+		邪灵晶体也可放置在坩埚中, 化为相同属性的邪灵之魂释放于灵场中. 
+		The demon Crystals can also be placed inside of the Crucible to melt down into Demon Will, and they will pump the Aura up with its particular type.
+		}
+		{- Demon Crystallizer
+		(picture_recipe_DemonCrystallizer)
+		(picture_DemonCrystallizer)
+		所处魂之领域中存在环绕其周围的魂魄, 邪灵结晶坛即可使之形成更为集中的形式. 于塔尔塔宝石与物品邪灵之魂所储的魂魄乃是其缥缈之体现, 而结晶坛使得取其精髓, 转缥缈为物质之形式.
+		With Will flowing around in the local Demon Aura, it becomes advantageous to focus the Will into a more concentrated form. The Will found inside of the Tartaric gems and the Demonic Will items is the ethereal manifestation of the Will, however the Crystallizer allows you to grab this essence and convert the ethereal to a physical form. 
+
+		结晶坛的运作即把魂之领域中的邪灵之魂集于其台面上形成结晶. 当结晶坛集齐足够的魂魄意识, 一个纯净邪灵之魂晶簇将生成于结晶坛上方.
+		The Crystallizer acts as a point for the Demon Aura to latch onto, allowing the Will to start to crystallize on top of it. When enough Will congregates onto the Crystallizer, a Crystal Cluster of pure Demonic Will will form on top of it. 
+
+		由于魂魄为释放于大气中后再捕获, 在某些情况下会生成不同颜色的晶簇. 晶簇生成时有10%的几率生成特殊种类中的一类. 尝试获取全部!
+		Because the Will is put into the air and then grabbed from the atmosphere, you will sometimes notice you get different colours of crystal clusters. There is a 10% chance that when a cluster is grown, it will be one of these unique types. Try to catch them all!
+
+		结晶坛生成晶簇需要100原生邪灵之魂. 并且需要大量时间, 所以一个区块同时放上超过一个结晶坛更好.
+		The crystallizer requires 100 default Demonic Will in order to form one cluster. Also quite a bit of time, so you may want to have more than one crystallizer in the chunk at once.
+		}
+		{- Demon Will Crystal Cluster
+		(picture_recipe_DWCrystalCluster)
+		晶簇即从魂之灵域获取晶体形式的邪灵之魂的一种方式. 当一个区域内拥有足够浓度的魂之灵域(目前任意数量皆可), 晶簇可以获取更多魂魄, 由主晶体上形成更多晶体.
+		Crystal Clusters are a way to grow crystallized Demonic Will from the Demon Aura. When in an area with a high enough concentration of Demon Aura (any amount, currently), the crystal will act as a place for Will to latch on to, sprouting more crystals off of the main shard.
+		
+		(picture_DWCrystalCluster)
+		从晶簇上获取晶体主要有两种方式. 一是开采晶簇, 将其破坏并掉落晶体. 二是当有一个超过1024魂魄意识的塔尔塔宝石时右击晶簇(普通宝石的容量为1024, 而较大宝石的容量为4096), 这会使晶簇留剩一个单晶, 其余晶体掉落. 仅有一个晶体的晶簇右键则不会对其破坏.
+		There are two main ways to harvest the crystals from the cluster. Either you can mine the cluster, destroying it but dropping the shards, or you can right click on the cluster when you have more than 1024 Demon Will in your contained tartaric gem (a common gem has a capacity of 1024, but a greater gem has a capacity of 4096). This will drop a single crystal, and will leave the cluster intact. And yes, a cluster that only has one crystal on it won't be destroyed if you right click it.
+		
+		(picture_DWCrystalCluster2)
+		晶簇可获取五种不同种类的晶簇.
+		The crystal clusters come in all five of the different types of will.
+		}
+		{- Demon Pylon
+		(picture_recipe_DemonPylon)
+		(picture_DemonPylon)
+		你需要建造更多这玩意! *呃哼*
+		You need to build more of these! *Ahem*
+
+		邪灵导能塔能将魂之灵域引向它所在的位置. 它所做的便是查看其所在区块存在多少魂魄意识, 并通过虹吸与基本方向上(东西南北)的相邻区块达成平衡, 即它会从相邻区块获取魂魄意识直到两个区块的魂魄意识相同. 如果相邻区块有100魂魄意识, 导能塔所在区块为0, 它将使两个区块各有50魂魄意识为止. 且当然这将阻碍其他导能塔对魂魄意识, 以及其他消耗效果的干扰.
+		The Demon Pylon is used to draw Demon Aura towards it. What it does is it looks at how much Will is in its own chunk and attempts to equalize it with the other chunks by syphoning from the neighbouring chunk in each cardinal direction. By equalize, I mean that it will try to draw the Will from its neighbour until both chunks have an equal amount of Will. If the chunk beside it has 100 Will and its chunk has 0, both chunks will have 50 Will each by the end of it. Of course this is barring other Pylons messing with the Will and other draining effects.
+
+		导能塔便于在你的基地上传递魂魄意识, 你仅需要在一个区域上放置坩埚来释放魂之灵域. 更远距离上, 需要读取多个区块的情况可能会无法很好发挥.
+		Pylons are good to transmit Will throughout your base, so you will only need one area of Crucibles for your Demon Aura generation. For larger distances, it is probably not very good since you will need multiple chunks loaded.}
+		{- Different Types of Will
+		邪灵之魂有五种类型, 其包括四种特殊类型: 普通一类的"原生", 以及"腐蚀", "破坏", "复仇", "坚定".
+		There are five types of Demon Will, which includes four unique types of Will: there is the normal Will, which is the "Default" Then there is: Corrosive, Destructive, Vengeful, and Steadfast.
+
+		"腐蚀性"(绿) 即侵蚀事物. 在搏斗中它可以起到造成类似于中毒与凋零的效果.
+		"Corrosive" (green) deals with breaking stuff down. So in combat, this would be the type that you use to apply DoTs like poison and wither.
+
+		"复仇性"(红) 即为各种目的搜寻事物. 可以提升移动速度或是挥舞武器的速度.
+		"Vengeful" (red) deals with seeking things out for various purposes. This could be things such as increasing your speed or hastening a quarry ritual.
+
+		"破坏性"(黄) 即造成大量伤害 - 使用该魂魄意识, 将使其他事物有段不好的时光...没有任何意外情况.
+		"Destructive" (yellow) is used to cause large amounts of damage - if you use this Will, it will cause a bad time for other things... Sans any unexpected circumstances.
+
+		"坚定性"(紫) 即减少伤害与破坏. 防卫, 保护, 真理与正义...好吧或许与最后两样无关.
+		"Steadfast" (purple) is used to mitigate destruction and damage. Defence, protection, truth and justice... well, maybe not those last two.
+
+		不同种类的魂魄意识主要用于转变感知装备的形式. 最终, 不同种类的魂魄意识将用于变更各种仪式的效果.
+		The use for the different types of Will is mainly for changing the aspects of the Sentient equipment. Eventually, the different Will types will be used to change the effects of all of the various rituals.}
+	]
+
+==============
+= 物品路由
+	{
+	(Show a picture of all routing nodes)
+
+	在血魔法中物品路由系统(Routing)用于, 嘛, 运输(route)物品.
+	The Item Routing system in Blood Magic is used to, well, route items.
+	}
+	
+=========
+= 仪式
+	[	
+		{- 涌泉仪式 - Ritual of the Full Spring
+			或许是最简单的仪式, 通过从空气中获取水分凝聚, 生成一个水源方块于主仪式石上. 仪式激活消耗 500LP, 每次生成消耗 25LP, 重新生成水源仅需一刻.
+			Perhaps the simplest of rituals, this ritual grabs the moisture in the air and condenses it, forming a source block of water on top of the MRS. It costs 500LP to activate and 25LP per block created, but respawns the water every tick.}
+		{- 下界夜曲 - Serenade of the Nether
+			比起它的表亲要来得稍微危险些, 跨越世界获取熔岩, 生成一个岩浆源方块于主仪式石上. 仪式激活消耗 10,000LP, 每次生成消耗 500LP, 使用太快可能会导致你的灵魂网络枯竭.
+			Slightly more sinister of a ritual than its cousin, the Serenade of the Nether draws lava from across dimensions and generates a source block of lava on top of the MRS. Having an activation cost of 10,000LP and a refresh cost of 500LP per lava block, this ritual can run your network dry if you use it too quickly.}
+		{- 绿丛仪式 - Ritual of the Green Grove
+			这个仪式便于需要更快生长的植物, 绿丛促进其区域内的植物生长 (主仪式石两个方块上方的3x3x1水平范围) 每秒生长一刻. 每株植物每生长一刻消耗 5LP, 仪式激活消耗 5,000LP, 便于为植物稳定供给生长速度. 
+			A ritual that is helpful for those stubborn plants that you need to grow quickly, the Green Grove force-grows plants by sending the plants in its range (3x3x1 horizontal pane two blocks above the MRS) a growth tick once a second. Each of these ticks cost 5LP per plant, and the ritual costs 5,000LP to activate, so it can help to give you a steady supply of plants and crops.
+
+			(是的, 这也作用于甘蔗 - 任何可种植或可增长物品)
+			(Yes, it works on sugarcane - anything that is IPlantable or IGrowable)}
+		{- 高跳仪式 - Ritual of the High Jump
+			仪式将把主仪式石上方的有生命实体弹射至空中. 按住shift则不会被弹射. 仪式激活消耗 5,000LP, 每次操作 5LP.
+			This ritual looks for any living entity that is above the MRS and then shoots them into the air. If a person is pressing shift, the person will be able to land safely without being sent flying. This ritual costs 5,000LP to activate and 5LP per operation.}
+		{- 苦难之井 - Well of Suffering
+			自我献祭的旧替代品之一, 仪式以主仪式石为中心检测 11x11x21 范围内的血之祭坛. 若区域内有一个祭坛, 10方块半径范围内的生物将会被攻击, 以此来填充祭坛.
+			One of the old stand-bys for anyone who loves self-sacrifice, this ritual checks for a blood altar within a 11x11x21 area centered on the MRS. If there is an altar in its area, it will then attack mobs in a 10 block radius to fill up the blood altar. 
+
+			生物被攻击时, 其处理为 1HP 的虚空伤害并放入 10LP 于祭坛中(可被献祭符文提升). 每25刻将对区域内所有生物造成一次伤害, 基本可以作为自动献祭的首选.
+			When a mob is attacked, it is dealt 1HP of void damage and 10LP is placed into the blood altar (this respects sacrifice runes). Since this happens to every mob inside of its area at a period of 25 ticks, this is basically your go-to for automated sacrifice!
+
+			仪式激活消耗 40,000LP, 每次攻击每只生物 2LP.
+			It costs 40,000LP to activate and uses 2LP per operation per mob.}
+		{- 羽刀仪式 - Ritual of the Feathered Knife
+			羽刀仪式的执行内容很简单. 类似于苦难之井, 于 11x11x21 区域内检测血之祭坛. 而后检测 31x31x41 区域内的玩家 (15方块半径的水平范围, 20垂直范围) 并造成1HP伤害, 放入 100LP 于祭坛中, 可被牺牲符文提升. 仪式不会对低于3颗心生命值的玩家造成伤害, 但这时你也很容易遭到攻击.
+			The Ritual of the Feathered Knife is quite simple in its execution. Similar to the WoS, this ritual searches an 11x11x21 area for a Blood Altar. It then checks a 31x31x41 area for a player (so a 15 block radius horizontally, 20 radius vertically) and damages them for 1HP. For each HP taken, the ritual puts in 100LP into the altar, respecting any self-sacrifice runes used. This ritual will not put the user of the ritual under 3 hearts, however, but will thus leave you a bit vulnerable when using it.
+
+			仪式激活消耗 25,000LP, 每次操作消耗 20LP. 且以每秒一次的工作频率.
+			This ritual takes 25,000LP to activate and costs 20LP per operation. It also has a frequency of operation of once per second.}
+		{- 重生仪式 - Ritual of Regeneration}
+		{- 丰收之月 - Reap of the Harvest Moon}
+		{- 磁引仪式 - Ritual of Magnetism}
+		{- 挖掘仪式 - Ritual of the Crusher}
+		{- 盛宴之歌 - Ritual of the Satiated Stomach}
+		{- 制止仪式 - Ritual of Interdiction}
+		{- 牵制仪式 - Ritual of Containment}
+		{- 速移仪式 - Ritual of Speed}
+		{- 抑液仪式 - Dome of Suppression}
+		{- 驱逐氛场 - Aura of Expulsion}
+		{- 和风之唤 - Call of the Zephyr}
+		{- 净灵之曲 - Sound of the Cleansing Soul
+			暂时的仪式, 装备束灵盔甲走过主仪式石上将移除盔甲的所有强化, 并这些强化效果以强化手册的形式给予玩家. 便于玩家定义强化, 完善束灵盔甲对LP的消耗.
+			This ritual is a temporary ritual that removes all upgrades from the living armour of a person that walks on top of the MRS. These upgrades are then given to the player in the form of Living Upgrade Tomes. Because of this, it allows the player to compile upgrades to perfect their living armour for an LP cost.}
+		{- 束灵进化 - Ritual of Living Evolution
+			注: 暂时的仪式, 以后将会更改.
+			Note: this is a temporary ritual that WILL change later on. 
+
+			刚制造而成的束灵盔甲有100点的强化限制. 激活仪式并装备束灵盔甲走过, 盔甲的强化限制将提升至300点. 由于认为这个仪式相当不平衡以后将会有更改.
+			When you first create Living Armour, it has a maximum upgrade limit of 100 points. By activating this ritual and stepping into it while you have a set of Living Armour on, you can upgrade your armour so that it has a cap of 300 points. This ritual will change, because it can be considered pretty imbalanced.}
+		{- 牧养仪式 - Ritual of the Shepherd}
+		{- 孤魂集会 - Gathering of the Forsaken Souls}
+		{- 极寒火山 - Le Vulcanos Frigius
+			可在主仪式石五个方块上方的空区域内生成圆石. 不是一个 -有用的- 仪式, 不过之后可升级.
+			This makes cobblestone in the 5 blocks of empty space on top of the MRS. Not a very -useful- ritual, but later on it will be upgradeable.}
+		{- 铺设仪式 - Laying of the Filler
+			仪式会查找主仪式石上容器中的可放置方块. 并放置于主仪式石同水平位置上 5x5x1 的区域中. 这个仪式便于自动放置树苗或其他需要自动化的东西.
+			This ritual searches for an inventory on top of the MRS for any placeable blocks. When it finds some, it will then place the blocks in the 5x5x1 area on the same level of the MRS. This is a good ritual for automatically placing saplings or other things that need automation.
+
+			仪式激活消耗 5kLP, 每次操作 50LP (需调整)
+			It costs 5kLP to activate and 50LP per operation (needs adjustment)}
+		{- 伐林仪式 - Crash of the Timberman
+			伐林仪式将在10方块的水平半径, 主仪式石上30方块的范围内搜寻树木与叶子. 将树木的原木和叶子破坏, 掉落物放于主仪式石上的箱子中.
+			The Crash of the Timberman searches a 10 block horizontal radius and 30 blocks above the MRS for any trees and leaves. The ritual will then cut down the leaves and logs of the tree and put the drops into a chest that is above the MRS.
+
+			仪式激活消耗 500LP, 每次操作 10LP.
+			This ritual takes 500LP to activate and uses 10LP per operation.}
+		{- 虹吸圣曲 - Hymn of Siphoning}
+		{- 祭坛集结号 - The Assembly of the High Altar}
+		{- 折域之门 - The Gate of the Fold
+			(picture)
+			折域之门是最复杂的仪式之一. 激活时它会建立一个传送门, 当穿过时将传送使用者至有相同关键(key)的传送门. 如果多个传送门有相同的关键(key), 则会随意传送至一个.
+			The Gate of the Fold is one of the more complicated rituals. When activated, it will create a portal that, when walked through, will teleport the user to a portal that has the same key. If multiple portals have the same key, it should teleport the player to a portal randomly. 
+			
+			(picture)
+			传送门的关键(key)取决于 激活的玩家 和 规定区域内的方块-图中木板的区域. 换句话说, 围绕传送门的方块不同则不会连接至一块.
+			The key of the ritual is defined by who activated it and which blocks are placed in its defined area - this area can be seen by the wooden planks in the above picture. In other words, if you have different blocks surrounding the portal, your portals will be linked differently. 
+
+			传送门的关键(key)固定于 仪式激活的时候 或 仪式被红石重新开启的时候. 如果用红石停用传送门, 变更方块, 然后重新激活, 传送门将有不同的关键(key). 这便于建立更复杂的传送门网络.
+			The key for the portal is set when the ritual is activated or when the ritual is turned back on using redstone. If you were to deactivate the portal with redstone, change the blocks, and then reactivate the portal, the portal will have a different key. This will allow you to build more complicated portal networks.
+
+			仪式激活后关键(key)便固定下来. 你可以在激活传送门后重新排放/移除围绕传送门的方块, 并不更改连接的目的地. 这便于不打算停用的情况下装饰传送门.
+			Since the key is set when the ritual is activated, you can activate the portal and then rearrange/remove the blocks around it and it will still link to the same destination. This allows for decorating the portal if you plan to never deactivate it.
+
+			仪式激活消耗 50,000LP, 每次穿过消耗一点LP. 物品与动物以及其他实体可以通过传送门, 并且它可以跨世界传送 (跨世界传送消耗更多, 物品传送消耗更少).
+			It costs 50,000LP to activate and costs a bit of LP to go through. Items and animals and other entities can go through the portal, and it works cross-dimensionally (costs more if you teleport cross-dimensionally, and less if they are items).}
+	]
+
+================================
+= 印记等各种物品
+	Powering your general needs since 2014!
+	
+
