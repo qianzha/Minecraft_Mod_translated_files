@@ -250,7 +250,114 @@ tile.BloodMagic.demonCrystalDESTRUCTIVE.name=Destructive Will Crystal Cluster
 tile.BloodMagic.demonCrystalVENGEFUL.name=Vengeful Will Crystal Cluster
 tile.BloodMagic.demonCrystalSTEADFAST.name=Steadfast Will Crystal Cluster
 
-tile.BloodMagic.mimic.nohitbox.name=Ethereal Mimic Block
+tile.BloodMagic.mimic.nohitbox.name=Ethereal Opaque Mimic Block
+tile.BloodMagic.mimic.solidopaque.name=Opaque Mimic Block
+tile.BloodMagic.mimic.solidclear.name=Clear Mimic Block
+tile.BloodMagic.mimic.solidlight.name=Lighted Mimic Block
+tile.BloodMagic.mimic.sentient.name=Sentient Mimic Block
+
+tile.BloodMagic.bricks1.brick1_raw.name=Raw Stone Bricks
+tile.BloodMagic.bricks1.brick1_corrosive.name=Corrosive Stone Bricks
+tile.BloodMagic.bricks1.brick1_destructive.name=Destructive Stone Bricks
+tile.BloodMagic.bricks1.brick1_vengeful.name=Vengeful Stone Bricks
+tile.BloodMagic.bricks1.brick1_steadfast.name=Steadfast Stone Bricks
+
+tile.BloodMagic.bricks2.smallbrick_raw.name=Small Raw Stone Bricks
+tile.BloodMagic.bricks2.smallbrick_corrosive.name=Small Corrosive Stone Bricks
+tile.BloodMagic.bricks2.smallbrick_destructive.name=Small Destructive Stone Bricks
+tile.BloodMagic.bricks2.smallbrick_vengeful.name=Small Vengeful Stone Bricks
+tile.BloodMagic.bricks2.smallbrick_steadfast.name=Small Steadfast Stone Bricks
+tile.BloodMagic.bricks2.tile_raw.name=Raw Stone Tiles
+tile.BloodMagic.bricks2.tile_corrosive.name=Corrosive Stone Tiles
+tile.BloodMagic.bricks2.tile_destructive.name=Destructive Stone Tiles
+tile.BloodMagic.bricks2.tile_vengeful.name=Vengeful Stone Tiles
+tile.BloodMagic.bricks2.tile_steadfast.name=Steadfast Stone Tiles
+tile.BloodMagic.bricks2.tilespecial_raw.name=Accented Raw Stone Tiles
+tile.BloodMagic.bricks2.tilespecial_corrosive.name=Accented Corrosive Stone Tiles
+tile.BloodMagic.bricks2.tilespecial_destructive.name=Accented Destructive Stone Tiles
+tile.BloodMagic.bricks2.tilespecial_vengeful.name=Accented Vengeful Stone Tiles
+tile.BloodMagic.bricks2.tilespecial_steadfast.name=Accented Steadfast Stone Tiles
+
+tile.BloodMagic.inversionpillar.raw.name=Raw Inversion Pillar
+tile.BloodMagic.inversionpillar.corrosive.name=Corrosive Inversion Pillar
+tile.BloodMagic.inversionpillar.destructive.name=Destructive Inversion Pillar
+tile.BloodMagic.inversionpillar.vengeful.name=Vengeful Inversion Pillar
+tile.BloodMagic.inversionpillar.steadfast.name=Steadfast Inversion Pillar
+
+tile.BloodMagic.inversionpillarend.raw_bottom.name=Raw Inversion Pillar Base
+tile.BloodMagic.inversionpillarend.corrosive_bottom.name=Corrosive Inversion Pillar Base
+tile.BloodMagic.inversionpillarend.destructive_bottom.name=Destructive Inversion Pillar Base
+tile.BloodMagic.inversionpillarend.vengeful_bottom.name=Vengeful Inversion Pillar Base
+tile.BloodMagic.inversionpillarend.steadfast_bottom.name=Steadfast Inversion Pillar Base
+tile.BloodMagic.inversionpillarend.raw_top.name=Raw Inversion Pillar Cap
+tile.BloodMagic.inversionpillarend.corrosive_top.name=Corrosive Inversion Pillar Cap
+tile.BloodMagic.inversionpillarend.destructive_top.name=Destructive Inversion Pillar Cap
+tile.BloodMagic.inversionpillarend.vengeful_top.name=Vengeful Inversion Pillar Cap
+tile.BloodMagic.inversionpillarend.steadfast_top.name=Steadfast Inversion Pillar Cap
+
+tile.BloodMagic.demonlight.raw.name=Raw Demon Eye
+tile.BloodMagic.demonlight.corrosive.name=Corrosive Demon Eye
+tile.BloodMagic.demonlight.destructive.name=Destructive Demon Eye
+tile.BloodMagic.demonlight.vengeful.name=Vengeful Demon Eye
+tile.BloodMagic.demonlight.steadfast.name=Steadfast Demon Eye
+
+tile.BloodMagic.extras.stone_raw.name=Raw Stone
+tile.BloodMagic.extras.stone_corrosive.name=Corrosive Stone
+tile.BloodMagic.extras.stone_destructive.name=Destructive Stone
+tile.BloodMagic.extras.stone_vengeful.name=Vengeful Stone
+tile.BloodMagic.extras.stone_steadfast.name=Steadfast Stone
+
+tile.BloodMagic.extras.polished_raw.name=Polished Raw Stone
+tile.BloodMagic.extras.polished_corrosive.name=Polished Corrosive Stone
+tile.BloodMagic.extras.polished_destructive.name=Polished Destructive Stone
+tile.BloodMagic.extras.polished_vengeful.name=Polished Vengeful Stone
+tile.BloodMagic.extras.polished_steadfast.name=Polished Steadfast Stone
+
+tile.BloodMagic.extras.metal_raw.name=Raw Demon Alloy
+tile.BloodMagic.extras.metal_corrosive.name=Corrosive Demon Alloy
+tile.BloodMagic.extras.metal_destructive.name=Destructive Demon Alloy
+tile.BloodMagic.extras.metal_vengeful.name=Vengeful Demon Alloy
+tile.BloodMagic.extras.metal_steadfast.name=Steadfast Demon Alloy
+
+tile.BloodMagic.pillar1.raw.name=Raw Stone Pillar
+tile.BloodMagic.pillar1.corrosive.name=Corrosive Stone Pillar
+tile.BloodMagic.pillar1.destructive.name=Destructive Stone Pillar
+tile.BloodMagic.pillar1.vengeful.name=Vengeful Stone Pillar
+tile.BloodMagic.pillar1.steadfast.name=Steadfast Stone Pillar
+
+tile.BloodMagic.pillar2.raw.name=Accented Raw Stone Pillar
+tile.BloodMagic.pillar2.corrosive.name=Accented Corrosive Stone Pillar
+tile.BloodMagic.pillar2.destructive.name=Accented Destructive Stone Pillar
+tile.BloodMagic.pillar2.vengeful.name=Accented Vengeful Stone Pillar
+tile.BloodMagic.pillar2.steadfast.name=Accented Steadfast Stone Pillar
+
+tile.BloodMagic.pillarCap1.raw.name=Raw Stone Pillar Cap
+tile.BloodMagic.pillarCap1.corrosive.name=Corrosive Stone Pillar Cap
+tile.BloodMagic.pillarCap2.destructive.name=Destructive Stone Pillar Cap
+tile.BloodMagic.pillarCap2.vengeful.name=Vengeful Stone Pillar Cap
+tile.BloodMagic.pillarCap3.steadfast.name=Steadfast Stone Pillar Cap
+
+tile.BloodMagic.wall1.brick_raw.name=Raw Stone Brick Wall
+tile.BloodMagic.wall1.brick_corrosive.name=Corrosive Stone Brick Wall
+tile.BloodMagic.wall1.brick_destructive.name=Destructive Stone Brick Wall
+tile.BloodMagic.wall1.brick_vengeful.name=Vengeful Stone Brick Wall
+tile.BloodMagic.wall1.brick_steadfast.name=Steadfast Stone Brick Wall
+tile.BloodMagic.wall1.smallbrick_raw.name=Raw Small Stone Brick Wall
+tile.BloodMagic.wall1.smallbrick_corrosive.name=Corrosive Small Stone Brick Wall
+tile.BloodMagic.wall1.smallbrick_destructive.name=Destructive Small Stone Brick Wall
+tile.BloodMagic.wall1.smallbrick_vengeful.name=Vengeful Small Stone Brick Wall
+tile.BloodMagic.wall1.smallbrick_steadfast.name=Steadfast Small Stone Brick Wall
+tile.BloodMagic.wall1.large_raw.name=Raw Stone Wall
+tile.BloodMagic.wall1.large_corrosive.name=Corrosive Stone Wall
+tile.BloodMagic.wall1.large_destructive.name=Destructive Stone Wall
+tile.BloodMagic.wall1.large_vengeful.name=Vengeful Stone Wall
+tile.BloodMagic.wall1.large_steadfast.name=Steadfast Stone Wall
+
+tile.BloodMagic.stairs1.raw.name=Raw Stone Stairs
+tile.BloodMagic.stairs1.corrosive.name=Corrosive Stone Stairs
+tile.BloodMagic.stairs2.destructive.name=Destructive Stone Stairs
+tile.BloodMagic.stairs2.vengeful.name=Vengeful Stone Stairs
+tile.BloodMagic.stairs3.steadfast.name=Steadfast Stone Stairs
 
 # Fluids
 fluid.lifeEssence=Life Essence
@@ -276,6 +383,7 @@ tooltip.BloodMagic.sigil.divination.currentAltarTier=Current Tier: %d
 tooltip.BloodMagic.sigil.divination.currentEssence=Current Essence: %d LP
 tooltip.BloodMagic.sigil.divination.currentAltarCapacity=Current Capacity: %d LP
 tooltip.BloodMagic.sigil.divination.currentTranquility=Current Tranquility: %d
+tooltip.BloodMagic.sigil.divination.currentInversion=Current Inversion: %d
 tooltip.BloodMagic.sigil.divination.currentBonus=Current Bonus: +%d%%
 tooltip.BloodMagic.sigil.water.desc=&oInfinite water, anyone?
 tooltip.BloodMagic.sigil.lava.desc=&oHOT! DO NOT EAT
@@ -377,8 +485,15 @@ tooltip.BloodMagic.livingArmour.upgrade.graveDigger=Grave Digger
 tooltip.BloodMagic.livingArmour.upgrade.sprintAttack=Charging Strike
 tooltip.BloodMagic.livingArmour.upgrade.criticalStrike=True Strike
 tooltip.BloodMagic.livingArmour.upgrade.elytra=Elytra
+tooltip.BloodMagic.livingArmour.upgrade.nightSight=Nocturnal Prowess
+
+
 tooltip.BloodMagic.livingArmour.upgrade.slowness=Limp Leg
 tooltip.BloodMagic.livingArmour.upgrade.crippledArm=Crippled Arm
+tooltip.BloodMagic.livingArmour.upgrade.slippery=Loose Traction
+tooltip.BloodMagic.livingArmour.upgrade.battleHunger=Battle Hungry
+tooltip.BloodMagic.livingArmour.upgrade.quenched=Quenched
+tooltip.BloodMagic.livingArmour.upgrade.meleeDecrease=Dulled Blade
 tooltip.BloodMagic.livingArmour.upgrade.level=%s (Level %d)
 tooltip.BloodMagic.livingArmour.upgrade.progress=%s (%d/100)
 tooltip.BloodMagic.livingArmour.upgrade.points=&6Upgrade points: %s / %s
@@ -583,8 +698,18 @@ chat.BloodMagic.altar.comp.notair=a solid block
 
 chat.BloodMagic.altar.nextTier=The next tier of blood altar is missing %s at %s.
 
+chat.BloodMagic.mimic.potionSet=Potion trap has been set.
+chat.BloodMagic.mimic.potionRemove=Potion trap has been disabled.
+chat.BloodMagic.mimic.potionInterval.up=Potion Interval has been increased to: %d ticks.
+chat.BloodMagic.mimic.potionInterval.down=Potion Interval has been decreased to: %d ticks.
+chat.BloodMagic.mimic.detectRadius.up=Player detection radius has been increased to: %d blocks.
+chat.BloodMagic.mimic.detectRadius.down=Player detection radius has been decreased to: %d blocks.
+chat.BloodMagic.mimic.potionSpawnRadius.up=Potion spawning radius has been increased to: %d blocks.
+chat.BloodMagic.mimic.potionSpawnRadius.down=Potion spawning radius has been decreased to: %d blocks.
+
 # entity
 entity.BloodMagic.SentientSpecter.name=Sentient Specter
+entity.BloodMagic.Mimic.name=Mimic
 
 # sekrit
 
@@ -649,8 +774,14 @@ commands.soulnetwork.notACommand=That is not a valid command
 commands.soulnetwork.fillMax.success=Successfully filled %s's Soul Network to their orb max!
 commands.soulnetwork.create.success=Successfully created %s's Soul Network (Orb tier: %d)
 
+# GUI
+tile.BloodMagic.inputNode.name=Input Node
+tile.BloodMagic.outputNode.name=Output Node
+
 # Keybinds
-BloodMagic.keybind.openSigilHolding=Open Sigil of Holding
+BloodMagic.keybind.open_holding=Open Sigil of Holding
+BloodMagic.keybind.cycle_holding_pos=Cycle Sigil (+)
+BloodMagic.keybind.cycle_holding_neg=Cycle Sigil (-)
 
 # JustEnoughItems
 jei.BloodMagic.recipe.altar=Blood Altar
@@ -687,3 +818,6 @@ tc.research_category.BLOODMAGIC=Sanguine Arcana
 bloodmagic.research_name.BLOODMAGIC=Blood Magic
 bloodmagic.research_text.BLOODMAGIC=Sanguine Arcana
 bloodmagic.research_page.BLOODMAGIC.1=The realm of the Blood Magics has always appeared to be a more solitary and "individual" art with blood mages being notoriously reclusive and a bit insane at times. However, the powers of self-sacrifice and life essence have uses even beyond a normal blood mage's sight, in fact, it is quite apparent that it may have some uses in thaumaturgy after all!
+
+# Buttons
+button.bloodmagic.tooltip.fill=Fill network
