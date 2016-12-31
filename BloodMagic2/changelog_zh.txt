@@ -1,4 +1,140 @@
 ------------------------------------------------------
+Version 2.1.1-70
+------------------------------------------------------
+- 为路由节点添加流体传输路径 - 通过使用流体筛选器并放置一个流体容器作为筛选来实现.
+- 使得当查询血宝石配方时书本不会填上配方. 
+- Added a null check for the Will getter for the Aura incase the WillChunk somehow does not generate. 
+
+------------------------------------------------------
+Version 2.1.0-69
+------------------------------------------------------
+- 修复影桥印记在不同世界和长距离传送时的故障.
+- Added deprecated methods for easier updating - Oops!
+
+------------------------------------------------------
+Version 2.1.0-68
+------------------------------------------------------
+- 修复重生仪式的文本
+- 修复和风之唤仪式的bug. 
+
+------------------------------------------------------
+Version 2.1.0-67
+------------------------------------------------------
+- 添加绿丛仪式的破坏性意志效果. 这个仪式现在完成了~
+- 完成下界夜曲的参数.
+- 应用血之祭坛的新模型, 使其与模组的其他东西更协调 (Thanks, wiiv!)
+- 使血之祭坛遵循新容量系统以便于流体管理(the new capability system for fluid management).
+- 完成羽刀仪式的参数.
+- 完成挖掘仪式的参数.
+- 完成牧养仪式的大多数参数.
+- 更改羽刀仪式, 使其适用束灵盔甲的结实手心升级.
+- 修复羽刀仪式, 使其检测生命的临界值基于百分比.
+- 使感知工具从被杀敌人上消耗相应意志.
+- 使被动生物默认提供更多LP (鼓励建造你自己的农场).
+- 增强动物对于孤魂集会仪式的效益至4倍.
+- 添加框架 for the Purification Altar.
+- 修复仪式推测杖试图替代某些方块时造成的崩溃.
+- 投网不再能在投出后20刻内击中投网的投掷者.
+
+------------------------------------------------------
+Version 2.1.0-66
+------------------------------------------------------
+- Made it so that when you acquire a Living Armour Upgrade from a Tome, it raises the corresponding Stat Tracker up to that upgrade level.
+- Added some more framework for the Living Armour Downgrades.
+- Modified the Grim Reaper's Sprint so it is better at later levels.
+- Added a Repairing Living Armour Upgrade (trained by damaging the chestplate of the Living Armour while you have a full set on - it repairs all of your armour pieces over time)
+- Modified the Dwarven Might skill to better change the mining speed when mining.
+- Added a Dig Slowdown armour downgrade called "Weakened Pick".
+- Added the framework for a ritual that grants downgrades (instead of the potion method).
+- Fixed the recipes for some of the Demon Will blocks
+- Added the Sigil of Elasticity, the Sigil of the Claw, and the Sigil of Winter's Breath.
+- Changed most of the BlockString blocks to a BlockEnum in order to solve a loading issue with schematics.
+- Added the entries for the Skeleton Turret Array and the Updraft Array
+- Added the Bounce Array
+- Modified the Sigil of the Phantom Bridge so it better performs with speed modifications
+- Added the ability to use Mimic Blocks containing a valid Altar Component to work with the altar (#945)
+  - Note: If using a Blood Rune, you do not get the ability of said rune. It just counts as a valid block.
+- Fixed `/bloodmagic network get NAME` using the wrong localization (#955)
+- Fixed Mimic Blocks causing an NPE with some Tile Entities (#951)
+- Fixed a massive FPS drop when looking at a Master Ritual Stone while holding a Ritual Tinkerer (#950)
+- Fixed an occasional crash when looking at a Mimic block with WAILA installed (#949)
+- Fixed the displayed Lesser Tartaric Gem recipe in the Guide (#947)
+- Fixed Dagger of Sacrifice one-shotting bosses. It now just doesn't work (#932)
+- Fixed controls re-binding after each startup (#922)
+- Added an alchemy array, the Array of the Fast Miner
+
+------------------------------------------------------
+Version 2.1.0-65
+------------------------------------------------------
+- Fixed NPE when attacking mobs when you don't have a set of Living Armour. Oops.
+
+------------------------------------------------------
+Version 2.1.0-64
+------------------------------------------------------
+- Fixed the symmetry issues of the Ritual of Containment
+- Changed the recipe of the Acceleration rune so that it is a T4 rune.
+- Added the Charging rune, which accumulates charge by using the LP from the Blood Altar (1 charge = 1 LP always). If enough charge is stored when crafting, the crafting occurs instantly.
+- Added the entries for the Rune of Augmented Capacity, Charging Rune, and Rune of Acceleration
+- Fixed the Sigil of Translocation so that it does not crash when picking up certain blocks. Also removed the damned lightning.
+- Changed the Quick Feet upgrade and the speed boost sigil so that their speeds are applied when strafing and walking backwards as well.
+
+------------------------------------------------------
+Version 2.1.0-63
+------------------------------------------------------
+- Removed the darn testing code from the Divination Sigil. >.>
+
+------------------------------------------------------
+Version 2.1.0-62
+------------------------------------------------------
+- Fixed the fact rituals were not working (Might have been a compiler error).
+
+------------------------------------------------------
+Version 2.1.0-61
+------------------------------------------------------
+- Added fancy rendering for the Inversion Pillars.
+- Made the Meteor registry more manageable by separating the meteors into independent .json files.
+- Fixed the Sigil of Holding so that it does not crash servers when pressing the Holding key ('H' by default)
+
+------------------------------------------------------
+Version 2.1.0-60
+------------------------------------------------------
+- Fixed routing node serialization.
+- Removed unwanted System.out lines when clicking on the slots in the routing node.
+
+------------------------------------------------------
+Version 2.1.0-59
+------------------------------------------------------
+- Added the Living Armour Upgrade, Nocturnal Prowess, which gives night vision in dark areas and increases damage while the area is dark.
+- Added a LOT of dungeon blocks. I mean a lot.
+- Finished adding the recipes for all of the blocks (except the Demon Alloy)
+- Added a temporary texture (finally) for the Inspectoris Scandalum
+- Fixed Specters spawning with the /give command
+- Fixed the sacrifice range of the altar.
+- Fixed the Regeneration ritual so that it works on non-players
+- Added Mimic entry to The Architect.
+- Configurified the Meteor Ritual - Modpacks and users can edit all of the major properties of the meteor ritual, including what items need to be dropped onto the ritual as well as what you get in the ritual, radius, etc. The config will refresh if there is a version change unless you set "resyncOnVersionChange" to false.
+- Merged the three brick variants into one.
+- Added the Inversion Pillar models and caps
+
+------------------------------------------------------
+Version 2.0.4-58
+------------------------------------------------------
+- Temporarily removed the dungeon stuff so that it doesn't crash.
+
+------------------------------------------------------
+Version 2.0.4-57
+------------------------------------------------------
+- Changed the Demon Will Aura Gauge so it refreshes based on the player's ticks existed
+- Made Draft of Angelus craftable with gold dust
+- Fixed Elytra upgrade
+- Added the Mimics - the real ones
+- Implemented a bit of framework for some T5 shenanigans.
+- Fixed the Incense Altar so it properly detected the south sides of the altar.
+- Updated the Filtered Item Routing Nodes' GUI so that it behaved less like ass. Also added the necessary nbt porting code.
+- Further improved the routing GUI by allowing an amount to be typed into the amount bar.
+- Updated the toggleable sigils so they drain the user's LP based on the user's total ticks existed instead of the world time. This is to solve the doDaylightCycle glitch in this scenario.
+
+------------------------------------------------------
 Version 2.0.4-56
 ------------------------------------------------------
 - 修复1.10.2与1.9.4版本间一个不兼容性
