@@ -849,11 +849,8 @@ tile.BloodMagic.outputNode.name=输出节点
 
 # Keybinds
 BloodMagic.keybind.open_holding=打开集持印记
-<<<<<<< HEAD
 BloodMagic.keybind.cycle_holding_pos=循环选择印记 (+)
 BloodMagic.keybind.cycle_holding_neg=循环选择印记 (-)
-=======
->>>>>>> origin/master
 
 # JustEnoughItems
 jei.BloodMagic.recipe.altar=血之祭坛
@@ -891,9 +888,6 @@ tc.research_category.BLOODMAGIC=血红奥术
 bloodmagic.research_name.BLOODMAGIC=血魔法
 bloodmagic.research_text.BLOODMAGIC=血红奥术
 bloodmagic.research_page.BLOODMAGIC.1=血魔法的领域总是似乎有些孤立且像是"个人"艺术, 同众所周知的喜爱隐居有时还有点疯癫的血魔法师. 然而, 自我牺牲与生命源质的力量甚至拥有超出一般血魔法师所见的用途, 事实上, 这种力量显然终究能应用于神秘学.
-<<<<<<< HEAD
 
 # Buttons
 button.bloodmagic.tooltip.fill=填充网络
-=======
->>>>>>> origin/master
