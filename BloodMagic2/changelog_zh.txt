@@ -1,9 +1,27 @@
 ------------------------------------------------------
+Version 2.1.2
+------------------------------------------------------
+- 修复当添加指导配方到JEI时引起的服务器崩溃问题
+
+------------------------------------------------------
 Version 2.1.1-70
 ------------------------------------------------------
+- 修复束灵盔甲的牺牲升级
+- 修复束缚工具不消耗LP的问题
+- 应用血之储罐(Blood Tank)
+  - 目前的合成配方是暂时的™
+- 空的药瓶现在可以被再次填满，来获取一个新的药瓶 [ 对着水源方块右击（任意使用Material.WATER的方块，同原版药水瓶）来填充，这会移除所有药水效果。空瓶会显示出没有存有液体的材质 ]
+- 修复驱逐氛场的白名单
+- 添加Walia提示文本(祭坛的储能值)，持有见解印记时查看
+- 修复陨石配置文件错误（caused by EnderCore reloading configs early into startup）
+- 修复陨石配置文件不生成新条目的问题
+- 将感知之灵添加至苦难之井黑名单
+- 修复印记消耗玩家而不是绑定网络的问题
 - 为路由节点添加流体传输路径 - 通过使用流体筛选器并放置一个流体容器作为筛选来实现.
 - 使得当查询血宝石配方时书本不会填上配方. 
 - Added a null check for the Will getter for the Aura incase the WillChunk somehow does not generate. 
+- [API] Added a new IMC API for modders to register their blocks as an altar component.
+  - Example: Chisel Glowstone can now be used for the Tier 3 caps (once Chisel implements it)
 
 ------------------------------------------------------
 Version 2.1.0-69
