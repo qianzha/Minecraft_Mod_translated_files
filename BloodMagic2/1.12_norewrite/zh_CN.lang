@@ -3,12 +3,12 @@ itemGroup.bloodmagic.creativeTab=血魔法
 itemGroup.bloodmagic.creativeTabTome=血魔法|手册
 
 #Items
-item.bloodmagic.activationCrystal.weak.name=[虚弱]激活水晶
-item.bloodmagic.activationCrystal.awakened.name=[觉醒]激活水晶
-item.bloodmagic.activationCrystal.creative.name=[创造]激活水晶
+item.bloodmagic.activation_crystal.weak.name=[虚弱]激活水晶
+item.bloodmagic.activation_crystal.awakened.name=[觉醒]激活水晶
+item.bloodmagic.activation_crystal.creative.name=[创造]激活水晶
 
-item.bloodmagic.sacrificialDagger.normal.name=牺牲匕首
-item.bloodmagic.sacrificialDagger.creative.name=[创造]牺牲匕首
+item.bloodmagic.sacrificial_dagger.normal.name=牺牲匕首
+item.bloodmagic.sacrificial_dagger.creative.name=[创造]牺牲匕首
 item.bloodmagic.pack.selfSacrifice.name=血液背包
 item.bloodmagic.pack.sacrifice.name=斗士铠衣
 item.bloodmagic.daggerOfSacrifice.name=献祭刀
@@ -63,8 +63,8 @@ item.bloodmagic.reagent.virtus.name=力量元素
 item.bloodmagic.reagent.reductus.name=代价元素
 item.bloodmagic.reagent.potentia.name=效能元素
 
-item.bloodmagic.bloodShard.weak.name=[虚弱]气血碎片
-item.bloodmagic.bloodShard.demon.name=[恶魔]气血碎片
+item.bloodmagic.blood_shard.weak.name=[虚弱]气血碎片
+item.bloodmagic.blood_shard.demonic.name=[恶魔]气血碎片
 
 item.bloodmagic.baseComponent.reagent_water.name=水之试剂
 item.bloodmagic.baseComponent.reagent_lava.name=熔岩试剂
@@ -101,8 +101,8 @@ item.bloodmagic.baseComponent.antiseptic.name=防腐剂
 item.bloodmagic.baseComponent.catalyst_length_1.name=简单的延时催化剂
 item.bloodmagic.baseComponent.catalyst_power_1.name=简单的功效催化剂
 
-item.bloodmagic.cuttingFluid.basicCuttingFluid.name=基础切削油
-item.bloodmagic.cuttingFluid.explosive.name=爆炸火药
+item.bloodmagic.cutting_fluid.basic.name=基础切削油
+item.bloodmagic.cutting_fluid.explosive.name=爆炸火药
 
 item.bloodmagic.demonCrystal.default.name=恶魔意志晶体
 item.bloodmagic.demonCrystal.corrosive.name=腐蚀意志晶体
@@ -110,11 +110,11 @@ item.bloodmagic.demonCrystal.destructive.name=破坏意志晶体
 item.bloodmagic.demonCrystal.vengeful.name=复仇意志晶体
 item.bloodmagic.demonCrystal.steadfast.name=坚毅意志晶体
 
-item.bloodmagic.monsterSoul.base.name=[原生]恶魔意志
-item.bloodmagic.monsterSoul.corrosive.name=[腐蚀]恶魔意志
-item.bloodmagic.monsterSoul.destructive.name=[破坏]恶魔意志
-item.bloodmagic.monsterSoul.vengeful.name=[复仇]恶魔意志
-item.bloodmagic.monsterSoul.steadfast.name=[坚毅]恶魔意志
+item.bloodmagic.monster_soul.raw.name=[原生]恶魔意志
+item.bloodmagic.monster_soul.corrosive.name=[腐蚀]恶魔意志
+item.bloodmagic.monster_soul.destructive.name=[破坏]恶魔意志
+item.bloodmagic.monster_soul.vengeful.name=[复仇]恶魔意志
+item.bloodmagic.monster_soul.steadfast.name=[坚毅]恶魔意志
 
 item.bloodmagic.sigil.air.name=风之印记
 item.bloodmagic.sigil.blood_light.name=血光印记
@@ -124,7 +124,7 @@ item.bloodmagic.sigil.water.name=水之印记
 item.bloodmagic.sigil.lava.name=熔岩印记
 item.bloodmagic.sigil.void.name=虚空印记
 item.bloodmagic.sigil.green_grove.name=绿丛印记
-item.bloodmagic.sigil.elementalAffinity.name=元素印记
+item.bloodmagic.sigil.elemental_affinity.name=元素印记
 item.bloodmagic.sigil.haste.name=急速印记
 item.bloodmagic.sigil.suppression.name=抑液印记
 item.bloodmagic.sigil.magnetism.name=磁引印记
@@ -185,7 +185,7 @@ item.bloodmagic.fluidFilter.exact.name=精确液体筛选器
 item.bloodmagic.experienceTome.name=经验手册
 item.bloodmagic.sanguineBook.name=指示之书
 
-item.bloodmagic.livingPointUpgrade.draftAngelus.name=祷告之始
+item.bloodmagic.living_point_upgrade.draft_angelus.name=祷告之始
 
 item.bloodmagic.willGauge.name=灵域测量仪
 item.bloodmagic.potionFlask.name=药剂瓶
@@ -204,10 +204,10 @@ tile.bloodmagic.rune.blank.name=空白符文
 tile.bloodmagic.rune.speed.name=速度符文
 tile.bloodmagic.rune.efficiency.name=效率符文
 tile.bloodmagic.rune.sacrifice.name=献祭符文
-tile.bloodmagic.rune.selfsacrifice.name=牺牲符文
+tile.bloodmagic.rune.self_sacrifice.name=牺牲符文
 tile.bloodmagic.rune.displacement.name=转位符文
 tile.bloodmagic.rune.capacity.name=增容符文
-tile.bloodmagic.rune.augcapacity.name=超容符文
+tile.bloodmagic.rune.augmented_capacity.name=超容符文
 tile.bloodmagic.rune.orb.name=宝珠符文
 tile.bloodmagic.rune.acceleration.name=促进符文
 tile.bloodmagic.rune.charging.name=充能符文
@@ -440,9 +440,9 @@ tooltip.bloodmagic.pack.selfSacrifice.desc=相当不舒适的背包...
 tooltip.bloodmagic.pack.sacrifice.desc=描述
 tooltip.bloodmagic.pack.stored=储存：%d LP
 
-tooltip.bloodmagic.activationCrystal.weak=激活低等仪式
-tooltip.bloodmagic.activationCrystal.awakened=激活更强大的仪式
-tooltip.bloodmagic.activationCrystal.creative=创造模式 - 激活任何仪式
+tooltip.bloodmagic.activation_crystal.weak=激活低等仪式
+tooltip.bloodmagic.activation_crystal.awakened=激活更强大的仪式
+tooltip.bloodmagic.activation_crystal.creative=创造模式 - 激活任何仪式
 
 tooltip.bloodmagic.diviner.currentRitual=当前仪式:
 tooltip.bloodmagic.diviner.blankRune=空白仪式石：%d
