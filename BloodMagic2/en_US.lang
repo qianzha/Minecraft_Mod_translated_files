@@ -190,8 +190,6 @@ item.bloodmagic.living_point_upgrade.draft_angelus.name=Draft of Angelus
 item.bloodmagic.willGauge.name=Demon Will Aura Gauge
 item.bloodmagic.potionFlask.name=Potion Flask
 
-item.bloodmagic.icarusScroll.name=Scroll of Icarus
-
 # Blocks
 tile.bloodmagic.fluid.lifeEssence.name=Life Essence
 
@@ -374,9 +372,6 @@ tile.bloodmagic.stairs3.steadfast.name=Steadfast Stone Stairs
 # Fluids
 fluid.lifeEssence=Life Essence
 
-# HUD
-hud.bloodmagic.inactive=Inactive
-
 # Tooltips
 tooltip.bloodmagic.extraInfo=&9-Hold shift for more info-
 
@@ -449,7 +444,7 @@ tooltip.bloodmagic.activation_crystal.weak=Activates low-level rituals
 tooltip.bloodmagic.activation_crystal.awakened=Activates more powerful rituals
 tooltip.bloodmagic.activation_crystal.creative=Creative Only - Activates any ritual
 
-tooltip.bloodmagic.diviner.currentRitual=Current Ritual: %s
+tooltip.bloodmagic.diviner.currentRitual=Current Ritual: 
 tooltip.bloodmagic.diviner.blankRune=Blank Runes: %d
 tooltip.bloodmagic.diviner.waterRune=Water Runes: %d
 tooltip.bloodmagic.diviner.airRune=Air Runes: %d
@@ -540,7 +535,7 @@ tooltip.bloodmagic.itemFilter.ignoreNBT=Ignores the NBT of the filter
 tooltip.bloodmagic.itemFilter.modItems=Matches all items from the same mod
 tooltip.bloodmagic.itemFilter.oreDict=Used to filter through the Ore Dictionary
 
-tooltip.bloodmagic.fluidFilter.exact=Filters the fluid input/output
+tooltip.bloodmagic.itemFilter.exact=Filters the fluid input/output
 
 tooltip.bloodmagic.fluid.type=Fluid Contained: %s
 tooltip.bloodmagic.fluid.amount=Amount: %d / %d mB
@@ -610,7 +605,7 @@ ritual.bloodmagic.animalGrowthRitual=Ritual of the Shepherd
 ritual.bloodmagic.forsakenSoulRitual=Gathering of the Forsaken Souls
 ritual.bloodmagic.crystalHarvestRitual=Crack of the Fractured Crystal
 ritual.bloodmagic.meteorRitual=Mark of the Falling Tower
-ritual.bloodmagic.ellipseRitual=Focus of the Ellipsoid
+
 ritual.bloodmagic.cobblestoneRitual=Le Vulcanos Frigius
 ritual.bloodmagic.placerRitual=Laying of the Filler
 ritual.bloodmagic.fellingRitual=Crash of the Timberman
@@ -618,7 +613,6 @@ ritual.bloodmagic.pumpRitual=Hymn of Syphoning
 ritual.bloodmagic.altarBuilderRitual=The Assembly of the High Altar
 ritual.bloodmagic.portalRitual=The Gate of the Fold
 ritual.bloodmagic.downgradeRitual=Penance of the Leadened Soul
-ritual.bloodmagic.crystalSplitRitual=Resonance of the Faceted Crystal
 
 ritual.bloodmagic.waterRitual.info=Generates a source of water from the master ritual stone.
 ritual.bloodmagic.lavaRitual.info=Generates a source of lava from the master ritual stone.
@@ -665,7 +659,6 @@ ritual.bloodmagic.animalGrowthRitual.default.info=(Raw) Increases the speed of t
 ritual.bloodmagic.animalGrowthRitual.destructive.info=(Destructive) Causes adults that have not bred lately to run at mobs and explode.
 ritual.bloodmagic.animalGrowthRitual.corrosive.info=(Corrosive) Unimplemented.
 
-ritual.bloodmagic.crystalSplitRitual.info=Splits apart a well-grown Raw crystal cluster into seperal aspected crystal clusters.
 ritual.bloodmagic.fullStomachRitual.info=Takes food from the linked chest and fills the player's saturation with it.
 ritual.bloodmagic.interdictionRitual.info=Pushes all mobs within its area away from the master ritual stone.
 ritual.bloodmagic.containmentRitual.info=Pulls all mobs within its area towards the master ritual stone.
@@ -719,10 +712,6 @@ ritual.bloodmagic.animalGrowthRitual.chest.info=(Chest) Chest for breeding items
 ritual.bloodmagic.forsakenSoulRitual.crystal.info=(Crystal) Demon Crystals in this range receive an increase in growth speed when a mob is killed by the ritual.
 ritual.bloodmagic.forsakenSoulRitual.damage.info=(Damage) Mobs within this range will be slowly damaged, and when killed will grow the crystals.
 ritual.bloodmagic.crystalHarvestRitual.crystal.info=(Crystal) All Demon Will crystal clusters have a single crystal broken off, spawning the crystal into the world. If there is only one crystal on the cluster, it will not break it.
-
-ritual.bloodmagic.ellipseRitual.info=Creates a hollow spheroid around the ritual using the blocks in the attached chest. 
-ritual.bloodmagic.ellipseRitual.spheroidRange.info=(Placement) The range that the ritual will place its blocks in. Spheroid is centered on the ritual - if one side is shorter than the side opposite the spheroid is truncated.
-ritual.bloodmagic.ellipseRitual.chest.info=(Chest) The location of the inventory that the ritual will grab blocks from to place in the world.
 
 ritual.bloodmagic.placerRitual.placerRange.info=(Placement) The range that the ritual will place its blocks in. 
 ritual.bloodmagic.placerRitual.chest.info=(Chest) The location of the inventory that the ritual will grab blocks from to place in the world.
@@ -831,6 +820,8 @@ commands.bind.remove.success=Unbinding successful
 commands.orb.usage=/bloodmagic orb [set|get] player [tier]
 commands.orb.help=Used to set or get the Player's max Blood Orb tier.
 
+commands.bind.usage=/bind <player>
+commands.bind.success=Item successfully bound!
 commands.bind.failed.noPlayer=There is no player specified
 commands.bind.failed.alreadyBound=Item is already bound; use /unbind to unbind it
 commands.bind.failed.notBindable=Item cannot be bound
@@ -850,12 +841,8 @@ commands.soulnetwork.fillMax.success=Successfully filled %s's Soul Network to th
 commands.soulnetwork.create.success=Successfully created %s's Soul Network (Orb tier: %d)
 
 # GUI
+tile.bloodmagic.inputNode.name=Input Node
 tile.bloodmagic.outputNode.name=Output Node
-gui.bloodmagic.save=Save
-gui.bloodmagic.cancel=Cancel
-gui.bloodmagic.default=Default
-gui.bloodmagic.toggle=Toggle
-config.bloodmagic.edit_hud=Edit HUD Elements
 
 # Keybinds
 bloodmagic.keybind.open_holding=Open Sigil of Holding
