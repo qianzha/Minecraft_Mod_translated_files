@@ -190,6 +190,8 @@ item.bloodmagic.living_point_upgrade.draft_angelus.name=祷告之始
 item.bloodmagic.willGauge.name=灵域测量仪
 item.bloodmagic.potionFlask.name=药剂瓶
 
+item.bloodmagic.icarusScroll.name=Scroll of Icarus 伊卡洛斯卷轴
+
 # Blocks
 tile.bloodmagic.fluid.lifeEssence.name=生命源质
 
@@ -372,6 +374,9 @@ tile.bloodmagic.stairs3.steadfast.name=坚毅石楼梯
 # Fluids
 fluid.lifeEssence=生命源质
 
+# HUD
+hud.bloodmagic.inactive=Inactive
+
 # Tooltips
 tooltip.bloodmagic.extraInfo=&9-按住 Shift 了解更多信息-
 
@@ -444,7 +449,7 @@ tooltip.bloodmagic.activation_crystal.weak=激活低等仪式
 tooltip.bloodmagic.activation_crystal.awakened=激活更强大的仪式
 tooltip.bloodmagic.activation_crystal.creative=创造模式 - 激活任何仪式
 
-tooltip.bloodmagic.diviner.currentRitual=当前仪式:
+tooltip.bloodmagic.diviner.currentRitual=当前仪式: %s
 tooltip.bloodmagic.diviner.blankRune=空白仪式石：%d
 tooltip.bloodmagic.diviner.waterRune=水之仪式石：%d
 tooltip.bloodmagic.diviner.airRune=风之仪式石：%d
@@ -535,7 +540,7 @@ tooltip.bloodmagic.itemFilter.ignoreNBT=忽视筛选的NBT
 tooltip.bloodmagic.itemFilter.modItems=同Mod的物品全部匹配
 tooltip.bloodmagic.itemFilter.oreDict=按矿物辞典筛选
 
-tooltip.bloodmagic.itemFilter.exact=精确匹配液体
+tooltip.bloodmagic.fluidFilter.exact=精确匹配液体
 
 tooltip.bloodmagic.fluid.type=所含液体：%s
 tooltip.bloodmagic.fluid.amount=数量：%d / %d mB
@@ -605,7 +610,7 @@ ritual.bloodmagic.animalGrowthRitual=牧养仪式
 ritual.bloodmagic.forsakenSoulRitual=孤魂集会
 ritual.bloodmagic.crystalHarvestRitual=碎晶裂纹
 ritual.bloodmagic.meteorRitual=坠星标位
-
+ritual.bloodmagic.ellipseRitual=Focus of the Ellipsoid
 ritual.bloodmagic.cobblestoneRitual=极寒火山
 ritual.bloodmagic.placerRitual=铺设仪式
 ritual.bloodmagic.fellingRitual=伐林仪式
@@ -613,6 +618,7 @@ ritual.bloodmagic.pumpRitual=虹吸圣曲
 ritual.bloodmagic.altarBuilderRitual=祭坛集结号
 ritual.bloodmagic.portalRitual=折域之门
 ritual.bloodmagic.downgradeRitual=沉重灵魂的忏悔
+ritual.bloodmagic.crystalSplitRitual=结晶共鸣
 
 ritual.bloodmagic.waterRitual.info=通过主仪式石生成一个水源方块
 ritual.bloodmagic.lavaRitual.info=通过主仪式石生成一个岩浆源方块
@@ -659,6 +665,7 @@ ritual.bloodmagic.animalGrowthRitual.default.info=[原生] 根据灵域内意志
 ritual.bloodmagic.animalGrowthRitual.destructive.info=[破坏]让最近没有繁殖后代的成年动物冲向怪物自爆
 ritual.bloodmagic.animalGrowthRitual.corrosive.info=[腐蚀] 暂无特殊效果
 
+ritual.bloodmagic.crystalSplitRitual.info=将长好的原生晶簇分离出四类特殊晶簇。
 ritual.bloodmagic.fullStomachRitual.info=从连接的箱子中获取食物，来补充玩家的饥饿值。
 ritual.bloodmagic.interdictionRitual.info=使其范围内的所有生物推离于主仪式石。
 ritual.bloodmagic.containmentRitual.info=使其范围内的所有生物牵引向主仪式石。
@@ -712,6 +719,10 @@ ritual.bloodmagic.animalGrowthRitual.chest.info=(箱子) 用于存放喂养动�
 ritual.bloodmagic.forsakenSoulRitual.crystal.info=(晶体) 当有生物因仪式死亡时，该区域内的晶簇生长速度将加快。
 ritual.bloodmagic.forsakenSoulRitual.damage.info=(伤害) 该区域内的生物将缓慢的收到伤害，当死亡时晶簇将生长。
 ritual.bloodmagic.crystalHarvestRitual.crystal.info=(晶体) 晶簇将被破坏成仅留单晶的晶簇，被破坏的晶体将掉落于世界。
+
+ritual.bloodmagic.ellipseRitual.info=使用目标箱子中的方块，在仪式周围创造出一个空心球体。
+ritual.bloodmagic.ellipseRitual.spheroidRange.info=（放置）仪式放置方块的范围。 Spheroid is centered on the ritual - if one side is shorter than the side opposite the spheroid is truncated.
+ritual.bloodmagic.ellipseRitual.chest.info=（箱子）容器的位置，仪式将提取其中的方块放置于世界中。
 
 ritual.bloodmagic.placerRitual.placerRange.info=(放置) 仪式将放置方块的区域。
 ritual.bloodmagic.placerRitual.chest.info=(箱子) 箱子位置, 仪式将提取其中的方块放置于世界中。
@@ -820,8 +831,6 @@ commands.bind.remove.success=解除绑定成功
 commands.orb.usage=/bloodmagic orb [设置(set)|查看(get)] <玩家> [等级]
 commands.orb.help=用于设置或查看玩家的最高血宝珠等级.
 
-commands.bind.usage=/bind <玩家>
-commands.bind.success=物品成功绑定！
 commands.bind.failed.noPlayer=没有指定玩家
 commands.bind.failed.alreadyBound=物品已经被绑定；使用 /unbind 来解除绑定
 commands.bind.failed.notBindable=物品无法被绑定
@@ -843,6 +852,11 @@ commands.soulnetwork.create.success=创建 %s 的灵魂网络成功（宝珠等�
 # GUI
 tile.bloodmagic.inputNode.name=输入节点
 tile.bloodmagic.outputNode.name=输出节点
+gui.bloodmagic.save=保存
+gui.bloodmagic.cancel=取消
+gui.bloodmagic.default=默认
+gui.bloodmagic.toggle=Toggle
+config.bloodmagic.edit_hud=Edit HUD Elements
 
 # Keybinds
 bloodmagic.keybind.open_holding=打开集持印记
