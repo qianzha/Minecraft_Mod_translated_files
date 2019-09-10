@@ -134,7 +134,7 @@ item.bloodmagic.sigil.phantom_bridge.name=影桥印记
 item.bloodmagic.sigil.whirlwind.name=旋风印记
 item.bloodmagic.sigil.ender_severance.name=绝影印记
 item.bloodmagic.sigil.holding.name=集持印记
-item.bloodmagic.sigil.holding.display=&r%s：&o&n%s
+# item.bloodmagic.sigil.holding.display=&r%s：&o&n%s
 item.bloodmagic.sigil.teleposition.name=传送印记
 item.bloodmagic.sigil.transposition.name=移位印记
 item.bloodmagic.sigil.claw.name=爪之印记
@@ -518,7 +518,7 @@ tooltip.bloodmagic.livingArmour.upgrade.slowHeal=愈合延缓
 tooltip.bloodmagic.livingArmour.upgrade.disoriented=平衡失调
 
 tooltip.bloodmagic.livingArmour.upgrade.level=%s（等级 %d）
-tooltip.bloodmagic.livingArmour.upgrade.progress=%s（%d/100）
+# tooltip.bloodmagic.livingArmour.upgrade.progress=%s（%d/100）
 tooltip.bloodmagic.livingArmour.upgrade.points=&6强化点数：%s / %s
 
 tooltip.bloodmagic.livingArmour.extraExtraInfo=&9-按住 Shift + M 查看进展信息-
@@ -621,8 +621,10 @@ ritual.bloodmagic.downgradeRitual=沉重灵魂的忏悔
 ritual.bloodmagic.crystalSplitRitual=结晶共鸣
 ritual.bloodmagic.condorRitual=崇敬之鹰
 ritual.bloodmagic.eternalSoulRitual=永魂之泣
-ritual.bloodmagic.groundingRitual=Ritual of Grounding
+ritual.bloodmagic.groundingRitual=大地束缚仪式
 ritual.bloodmagic.featheredEarthRitual=羽地仪式
+ritual.bloodmagic.veilOfEvilRitual=邪恶暗纱
+ritual.bloodmagic.wardOfSacrosanctityRitual=至圣守护
 
 ritual.bloodmagic.waterRitual.info=通过主仪式石生成一个水源方块
 ritual.bloodmagic.lavaRitual.info=通过主仪式石生成一个熔岩源方块
@@ -671,9 +673,9 @@ ritual.bloodmagic.animalGrowthRitual.corrosive.info=[腐蚀] 暂无特殊效果
 ritual.bloodmagic.groundingRitual.info=将实体压在地面上，防止其跳跃。
 ritual.bloodmagic.groundingRitual.default.info=[原生] 影响玩家。
 ritual.bloodmagic.groundingRitual.corrosive.info=[腐蚀] 移除重力 [+复仇] 启用升天。
-ritual.bloodmagic.groundingRitual.destructive.info=[破坏] 启用对心脏的作用 (增加摔落伤害) [+复仇] 增强效果。
-ritual.bloodmagic.groundingRitual.steadfast.info=[坚毅] 影响Boss。不影响免疫负面药水效果或是影响移动的负面效果的Boss （尤其是凋灵和末影龙）。
-ritual.bloodmagic.groundingRitual.vengeful.info=[复仇] 增强效果。 [+腐蚀] 启用升天模式。 [+破坏] 对心脏的作用更进一步。
+ritual.bloodmagic.groundingRitual.destructive.info=[破坏] 作用于心脏 (增加摔落伤害) [+复仇] 增强效果。
+ritual.bloodmagic.groundingRitual.steadfast.info=[坚毅] 影响Boss。不影响免疫负面药水效果或是影响移动的负面效果的Boss （凋灵和末影龙除外）。
+ritual.bloodmagic.groundingRitual.vengeful.info=[复仇] 增强效果。 [+腐蚀] 启用升天模式。 [+破坏] 更加影响心脏。
 # ritual.bloodmagic.condorRitual.info=仪式附近一定范围内提供飞行能力。
 # ritual.bloodmagic.eternalSoulRitual.info=有亏损地将生命源质从一个灵魂网络转移至一个祭坛。
 
@@ -818,37 +820,39 @@ commands.bloodmagic.error.arg.invalid=无效参数
 commands.bloodmagic.error.arg.missing=参数不足
 commands.bloodmagic.error.arg.player.missing=你必须指定一个玩家来执行该命令。
 commands.bloodmagic.error.negative=数值必须是一个正确的整数。
-commands.bloodmagic.error.outofbounds=所给的整数过大 (must be within list ID boundaries).
+commands.bloodmagic.error.outofbounds=所给的整数过大（必须在列出的ID序列之中）。
 
 commands.bloodmagic.success=成功执行
 
-commands.bloodmagic.format.help=%s - %s
-commands.bloodmagic.format.error=%s - %s
+# commands.bloodmagic.format.help=%s - %s
+# commands.bloodmagic.format.error=%s - %s
 
-commands.bloodmagic.help.usage=/bloodmagic help
+# commands.bloodmagic.help.usage=/bloodmagic help
 commands.bloodmagic.help.help=使用"/bloodmagic help"命令显示指令列表。
 
 commands.bloodmagic.network.usage=/bloodmagic network [吸取(syphon)|添加(add)|查看(get)|填充(fill)|填满(cap)] <玩家> [数量]
 commands.bloodmagic.network.help=灵魂网络实用工具
+
 commands.bloodmagic.network.syphon.help=从指定玩家的灵魂网络中移出指定的LP值。
 commands.bloodmagic.network.syphon.success=成功从 %s 吸取出 %dLP。
-commands.bloodmagic.network.syphon.usage=/bloodmagic network syphon [player] [amount]
+# commands.bloodmagic.network.syphon.usage=/bloodmagic network syphon [player] [amount]
 commands.bloodmagic.network.syphon.amountTooHigh=无法吸取出超过可获取的LP。
 commands.bloodmagic.network.add.help=添加指定的LP值到指定玩家的灵魂网络中。服从标准的LP增加规则。
-commands.bloodmagic.network.add.usage=/bloodmagic network add [player] [amount]
+# commands.bloodmagic.network.add.usage=/bloodmagic network add [player] [amount]
 commands.bloodmagic.network.add.success=成功添加 %dLP 到 %s 的灵魂网络。
 commands.bloodmagic.network.set.help=将指定玩家的LP设置为所给数值。
-commands.bloodmagic.network.set.usage=/bloodmagic network set [player] [amount]
+# commands.bloodmagic.network.set.usage=/bloodmagic network set [player] [amount]
 commands.bloodmagic.network.set.success=成功将 %s 灵魂网络中的LP设置为 %d。
 commands.bloodmagic.network.get.help=返还指定玩家灵魂网络中的LP值。
-commands.bloodmagic.network.get.usage=/bloodmagic network get [player]
+# commands.bloodmagic.network.get.usage=/bloodmagic network get [player]
 commands.bloodmagic.network.fill.help=将指定玩家的LP填充为 %d。
-commands.bloodmagic.network.fill.usage=/bloodmagic network fill [player]
+# commands.bloodmagic.network.fill.usage=/bloodmagic network fill [player]
 commands.bloodmagic.network.fill.success=成功填充 %s 的灵魂网络。
 commands.bloodmagic.network.cap.help=填充指定玩家的灵魂网络至其所持有的最高阶气血宝珠容量的最大值。
-commands.bloodmagic.network.cap.usage=/bloodmagic network cap [player]
+# commands.bloodmagic.network.cap.usage=/bloodmagic network cap [player]
 commands.bloodmagic.network.cap.success=成功填满 %s 的灵魂网络。
-
+commands.bloodmagic.network.tickethistory.help=显示玩家LP消耗者信息的标签历史（the soul ticket history）
+# commands.bloodmagic.network.tickethistory.usage=/bloodmagic network tickethistory [player]
 
 commands.bloodmagic.bind.usage=/bloodmagic bind [true|false] [玩家] ("?" 或者 "help" 查看帮助)
 commands.bloodmagic.bind.help=用于设置/解除手持物品的绑定情况。
@@ -861,9 +865,9 @@ commands.bloodmagic.bind.error.notBindable=无法绑定：物品无法绑定。
 commands.bloodmagic.orb.usage=/bloodmagic orb [设置(set)|查看(get)] <玩家> [等级] ("?" 或者 "help" 查看帮助)
 commands.bloodmagic.orb.help=用于设置或查看玩家的最高血宝珠等级.
 commands.bloodmagic.orb.get.help=用于查看玩家的最高血宝珠等级。
-commands.bloodmagic.orb.get.usage=/bloodmagic orb get [player|?|help]
+# commands.bloodmagic.orb.get.usage=/bloodmagic orb get [player|?|help]
 commands.bloodmagic.orb.set.help=用于设置玩家的最高血宝珠等级。
-commands.bloodmagic.orb.set.usage=/bloodmagic orb set [player|?|help]
+# commands.bloodmagic.orb.set.usage=/bloodmagic orb set [player|?|help]
 commands.bloodmagic.orb.currenttier=当前血宝珠等级为 %d.
 commands.bloodmagic.orb.error.tierTooHigh=血宝珠等级无法高过 %d.
 
@@ -877,17 +881,17 @@ commands.bloodmagic.ritual.error.noMRS=你需要站在一个主仪式石上来�
 
 commands.bloodmagic.teleposer.usage=传送器 Teleposer Utilities ("?" or "help" for help)
 commands.bloodmagic.teleposer.list.help=列出所有可用的传送器，可指定某玩家所拥有的。
-commands.bloodmagic.teleposer.list.usage=/bloodmagic teleposer list [player|?|help]
+# commands.bloodmagic.teleposer.list.usage=/bloodmagic teleposer list [player|?|help]
 commands.bloodmagic.teleposer.teleport.help=传送至指定传送器的位置。
-commands.bloodmagic.teleposer.teleport.usage=/bloodmagic teleposer teleport [ID|?|help]
+# commands.bloodmagic.teleposer.teleport.usage=/bloodmagic teleposer teleport [ID|?|help]
 commands.bloodmagic.teleposer.teleportfocus.help=传送至指定传送器内的核心保存的位置。
-commands.bloodmagic.teleposer.teleportfocus.usage=/bloodmagic teleposer teleportfocus [ID|?|help]
+# commands.bloodmagic.teleposer.teleportfocus.usage=/bloodmagic teleposer teleportfocus [ID|?|help]
 commands.bloodmagic.teleposer.rmrf.help=从指定的传送器开始，通过传送器的核心，移除传送路线上的所有传送器。
-commands.bloodmagic.teleposer.rmrf.usage=/bloodmagic teleposer rmrf [ID|?|help]
+# commands.bloodmagic.teleposer.rmrf.usage=/bloodmagic teleposer rmrf [ID|?|help]
 commands.bloodmagic.teleposer.remove.help=移除指定的传送器。
-commands.bloodmagic.teleposer.remove.usage=/bloodmagic teleposer remove [ID|?|help]
+# commands.bloodmagic.teleposer.remove.usage=/bloodmagic teleposer remove [ID|?|help]
 commands.bloodmagic.teleposer.removeall.help=移除所有传送器，如果指定了玩家，则移除绑定该玩家的核心所连接所有传送器。
-commands.bloodmagic.teleposer.removeall.usage=/bloodmagic teleposer removeall [player|?|help]
+# commands.bloodmagic.teleposer.removeall.usage=/bloodmagic teleposer removeall [player|?|help]
 
 #Used by commands.bloodmagic.teleposer.list for the dump sent to the player
 commands.bloodmagic.teleposer.anddimension=: 传送器: 维度ID:
@@ -916,7 +920,7 @@ jei.bloodmagic.recipe.alchemyArrayCrafting=炼金矩阵
 jei.bloodmagic.recipe.soulForge=狱火熔炉
 jei.bloodmagic.recipe.alchemyTable=炼金术桌
 jei.bloodmagic.recipe.armourDowngrade=祭品 (仪式：沉重灵魂的忏悔)
-jei.bloodmagic.recipe.requiredLP=LP: %d
+# jei.bloodmagic.recipe.requiredLP=LP: %d
 jei.bloodmagic.recipe.requiredTier=层级：%d
 jei.bloodmagic.recipe.consumptionRate=消耗率：%d LP/t
 jei.bloodmagic.recipe.drainRate=消耗率：%d LP/t
